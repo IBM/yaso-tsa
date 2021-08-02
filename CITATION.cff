@@ -1,7 +1,6 @@
 cff-version: 1.2.0
-message: If you use ruby-cff in your work, please cite it using the following metadata
-title: Ruby CFF Library
-abstract: This library provides a Ruby interface to manipulate CITATION.cff files
+message: "If you use this data or software, please cite the paper below."
+title: "YASO: A New Benchmark for Targeted Sentiment Analysis"
 authors:
 - family-names: Haines
   given-names: Robert
