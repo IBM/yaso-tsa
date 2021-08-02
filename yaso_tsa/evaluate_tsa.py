@@ -6,9 +6,9 @@
 import argparse
 import logging
 
-from Analysis.AnalzyedPredictions import AnalyzedPredictions, TARGETED_SENTIMENT_ANALYSIS, PRECISION, RECALL, F1
-from infra.TsaData import TsaData
-from infra.TsaLabels import TsaLabels
+from yaso_tsa.Analysis.AnalzyedPredictions import AnalyzedPredictions, TARGETED_SENTIMENT_ANALYSIS, PRECISION, RECALL, F1
+from yaso_tsa.infra.TsaData import TsaData
+from yaso_tsa.infra.TsaLabels import TsaLabels
 
 logging.basicConfig(format='[%(threadName)s] %(asctime)s,%(msecs)d %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s',
                     datefmt='%Y-%m-%d:%H:%M:%S',
