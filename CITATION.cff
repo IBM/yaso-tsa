@@ -1,5 +1,21 @@
-# YAML 1.2
----
-cff-version: 1.1.0
-message: "If you use this data or software, please cite the paper below."
-title: "YASO: A New Benchmark for Targeted Sentiment Analysis"
+cff-version: 1.2.0
+message: If you use ruby-cff in your work, please cite it using the following metadata
+title: Ruby CFF Library
+abstract: This library provides a Ruby interface to manipulate CITATION.cff files
+authors:
+- family-names: Haines
+  given-names: Robert
+  orcid: https://orcid.org/0000-0002-9538-7919
+  affiliation: The University of Manchester, UK
+keywords:
+- ruby
+- credit
+- citation
+- metadata
+- cff
+version: 0.6.0
+doi: 10.5281/zenodo.1184077
+date-released: 2018-07-29
+license: Apache-2.0
+repository-artifact: https://rubygems.org/gems/cff
+repository-code: https://github.com/citation-file-format/ruby-cff
