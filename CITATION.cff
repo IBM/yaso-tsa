@@ -2,25 +2,4 @@
 ---
 cff-version: 1.1.0
 message: "If you use this data or software, please cite the paper below."
-authors:
-  - family-names: Orbach
-    given-names: Matan
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-  - family-names: Toledo-Ronen
-    given-names: Orith
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-  - family-names: Spector
-    given-names: Artem
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-  - family-names: Aharonov
-    given-names: Ranit
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-  - family-names: Katz
-    given-names: Yoav
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-  - family-names: Slonim
-    given-names: Noam
-    orcid: "https://orcid.org/0000-0000-0000-0000"
 title: "YASO: A New Benchmark for Targeted Sentiment Analysis"
-url: "https://arxiv.org/abs/2012.14541"
-date-released: 2020-12-29
