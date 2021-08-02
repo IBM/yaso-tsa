@@ -1,0 +1,41 @@
+[
+  {
+    "text":"This is a great car",
+    "targets":[
+      {
+        "text":"car",
+        "location":{
+          "begin":16,
+          "end":19
+        },
+        "sentiment":"positive"
+      }
+    ]
+  },
+  {
+    "text":"This is a great car, with an ugly color",
+    "targets":[
+      {
+        "text":"car",
+        "location":{
+          "begin":16,
+          "end":19
+        },
+        "sentiment":"positive"
+      },
+	  {
+        "text":"color",
+        "location":{
+          "begin":35,
+          "end":40
+        },
+        "sentiment":"positive"
+      }
+    ]
+  },
+  {
+    "text":"This is a sentence without any targets",
+    "targets":[
+    ]
+  }
+]

@@ -1,77 +1,119 @@
-<!-- This should be the location of the title of the repository, normally the short name -->
-# repo-template
+This repository contains the YASO evaluation dataset for targeted sentiment analysis (TSA).
+Some of the sentences annotated in YASO are taken from other datasets that cannot be re-distributed in clear text. 
+That's why for some records the  file **yaso_hidden.json** includes an ID instead of plain text. 
 
-<!-- Build Status, is a great thing to have at the top of your repository, it shows that you take your CI/CD as first class citizens -->
-<!-- [![Build Status](https://travis-ci.org/jjasghar/ibm-cloud-cli.svg?branch=master)](https://travis-ci.org/jjasghar/ibm-cloud-cli) -->
+To retrieve the original texts:
+ 
+ (1) Download the required resources from the other datasets, as described below.  
+ (2) Run a script that restores the original texts.
 
-<!-- Not always needed, but a scope helps the user understand in a short sentance like below, why this repo exists -->
-## Scope
+The resulting file **yaso.json** file will contain the sentences with annotated targets and sentiments.
 
-The purpose of this project is to provide a template for new open source repositories.
+The **yaso.json** file contains a JSON array of examples, where each example includes an annotated text and a list of targets and their sentiments identified within that text. 
+Each target has its text, location within the sentence, and sentiment. 
+The sentiment value can be **positive**, **negative**, **mixed**, or **none**.
 
-<!-- A more detailed Usage or detailed explaination of the repository here -->
-## Usage
-
-This repository contains some example best practices for open source repositories:
-
-* [LICENSE](LICENSE)
-* [README.md](README.md)
-* [CONTRIBUTING.md](CONTRIBUTING.md)
-* [MAINTAINERS.md](MAINTAINERS.md)
-<!-- A Changelog allows you to track major changes and things that happen, https://github.com/github-changelog-generator/github-changelog-generator can help automate the process -->
-* [CHANGELOG.md](CHANGELOG.md)
-
-> These are optional
-
-<!-- The following are OPTIONAL, but strongly suggested to have in your repository. -->
-* [dco.yml](.github/dco.yml) - This enables DCO bot for you, please take a look https://github.com/probot/dco for more details.
-* [travis.yml](.travis.yml) - This is a example `.travis.yml`, please take a look https://docs.travis-ci.com/user/tutorial/ for more details.
-
-These may be copied into a new or existing project to make it easier for developers not on a project team to collaborate.
-
-<!-- A notes section is useful for anything that isn't covered in the Usage or Scope. Like what we have below. -->
-## Notes
-
-**NOTE: While this boilerplate project uses the Apache 2.0 license, when
-establishing a new repo using this template, please use the
-license that was approved for your project.**
-
-**NOTE: This repository has been configured with the [DCO bot](https://github.com/probot/dco).
-When you set up a new repository that uses the Apache license, you should
-use the DCO to manage contributions. The DCO bot will help enforce that.
-Please contact one of the IBM GH Org stewards.**
-
-<!-- Questions can be useful but optional, this gives you a place to say, "This is how to contact this project maintainers or create PRs -->
-If you have any questions or issues you can create a new [issue here][issues].
-
-Pull requests are very welcome! Make sure your patches are well tested.
-Ideally create a topic branch for every separate change you make. For
-example:
-
-1. Fork the repo
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
-
-## License
-
-All source files must include a Copyright and License header. The SPDX license header is 
-preferred because it can be easily scanned.
-
-If you would like to see the detailed LICENSE click [here](LICENSE).
-
-```text
-#
-# Copyright 2020- IBM Inc. All rights reserved
-# SPDX-License-Identifier: Apache2.0
-#
+An example of one annotated sentence:
+```json
+  {
+    "text": "Great food but the service was dreadful !",
+    "targets": [
+      {
+        "text": "food",
+        "location": {
+          "begin": 6,
+          "end": 10
+        },
+        "sentiment": "positive"
+      },
+      {
+        "text": "service",
+        "location": {
+          "begin": 19,
+          "end": 26
+        },
+        "sentiment": "negative"
+      }
+    ]
+  }
 ```
-## Authors
 
-Optionally, you may include a list of authors, though this is redundant with the built-in
-GitHub list of contributors.
+License
+---
+This dataset is released under Community Data License Agreement – Sharing, Version 1.0 (https://cdla.dev/sharing-1-0/)
 
-- Author: New OpenSource IBMer <new-opensource-ibmer@ibm.com>
+Downloading dataset resources
+---
 
-[issues]: https://github.com/IBM/repo-template/issues/new
+### Yelp
+Follow the instructions at https://www.yelp.com/dataset/download
+
+Choose Download JSON at "Download The Data" page.
+
+Use the path to the directory containing the files **yelp_academic_dataset_review.json** 
+and **yelp_academic_dataset_business.json** as value for the argument **--yelp**.
+
+For example:  
+```commandline
+--yelp ~/Downloads/yelp_dataset/
+```
+
+### Amazon
+Download the English test file from Multilingual Amazon Reviews Corpus.
+Access the data as described here: https://docs.opendata.aws/amazon-reviews-ml/readme.html#access 
+
+Download the test file https://amazon-reviews-ml.s3-us-west-2.amazonaws.com/json/test/dataset_en_test.json
+and use its path as value for argument **--amazon**:
+```commandline
+--amazon ~/Downloads/dataset_en_test.json
+```
+
+### SST
+Download the data set from  https://nlp.stanford.edu/sentiment/index.html 
+("Main zip file" link on the right side: http://nlp.stanford.edu/~socherr/stanfordSentimentTreebank.zip) and unzip it.
+
+Use the directory path as value for argument **--sst**:
+```commandline
+--sst ~/Downloads/stanfordSentimentTreebank
+```
+
+### Opinosis
+Download from the repository https://github.com/kavgan/opinosis-summarization the file `OpinosisDataset1.0_0.zip` and unzip it.
+
+Use the path of the **topics** directory as value for argument **--opinosis**:
+```commandline
+--opinosis ~/Downloads/OpinosisDataset1.0/topics
+```
+
+### SemEval14
+Download SemEval14 ABSA Test Data:
+Access MetaShare at http://metashare.elda.org/repository/browse/semeval-2014-absa-test-data-gold-annotations/b98d11cec18211e38229842b2b6a04d77591d40acd7542b7af823a54fb03a155/, 
+login, download and unzip the data file.
+
+Use the path of the directory as value for argument **--semeval**:
+```commandline
+--semeval ~/Downloads/ABSA_Gold_TestData
+```
+
+Run restore script
+-----------------
+Script requirements:
+* Python 3
+* pandas
+* nltk
+
+
+Run the script `restore_texts.py` with the arguments described above.
+All arguments are optional, skipping an argument for a source will note restore its sentences. 
+
+```commandline
+python restore_texts.py \
+    --yelp ~/Downloads/yelp_dataset/yelp_academic_dataset_review.json \
+    --amazon ~/Downloads/dataset_en_test.json \
+    --sst ~/Downloads/stanfordSentimentTreebank \
+    --opinosis ~/Downloads/OpinosisDataset1.0/topics \
+    --semeval ~/Downloads/ABSA_Gold_TestData 
+```
+
+The dataset with the restored sentences is saved to  `yaso.json`
+

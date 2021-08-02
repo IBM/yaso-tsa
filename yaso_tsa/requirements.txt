@@ -1,0 +1,6 @@
+nltk
+pandas
+dataclasses
+pathlib
+argparse
+matplotlib

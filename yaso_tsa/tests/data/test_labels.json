@@ -1,0 +1,93 @@
+[
+  {
+    "text":"This is a great car",
+    "targets":[
+      {
+        "text":"car",
+        "location":{
+          "begin":16,
+          "end":19
+        },
+        "sentiment":"positive",
+        "confidence": 0.71,
+        "num_annotations": 7,
+        "sentiment_positive": 5,
+        "sentiment_negative": 0,
+        "sentiment_mixed": 0,
+        "sentiment_none": 2,
+        "detected_by": {
+          "detected_positive": 2,
+          "detected_negative": 0,
+          "detected_mixed": 0
+        }
+      },
+      {
+        "text":"is",
+        "location":{
+          "begin":5,
+          "end":7
+        },
+        "sentiment":"none",
+        "confidence": 1,
+        "num_annotations": 7,
+        "sentiment_positive": 0,
+        "sentiment_negative": 0,
+        "sentiment_mixed": 0,
+        "sentiment_none": 7,
+        "detected_by": {
+          "detected_positive": 1,
+          "detected_negative": 1,
+          "detected_mixed": 0
+        }
+      }
+    ]
+  },
+  {
+    "text":"This is a great car, with an ugly color",
+    "targets":[
+      {
+        "text":"car",
+        "location":{
+          "begin":16,
+          "end":19
+        },
+        "sentiment":"positive",
+        "confidence": 0.71,
+        "num_annotations": 7,
+        "sentiment_positive": 5,
+        "sentiment_negative": 0,
+        "sentiment_mixed": 0,
+        "sentiment_none": 2,
+        "detected_by": {
+          "detected_positive": 2,
+          "detected_negative": 0,
+          "detected_mixed": 0
+        }
+      },
+	  {
+        "text":"color",
+        "location":{
+          "begin":35,
+          "end":40
+        },
+        "sentiment":"negative",
+        "confidence": 0.57,
+        "num_annotations": 7,
+        "sentiment_positive": 0,
+        "sentiment_negative": 4,
+        "sentiment_mixed": 0,
+        "sentiment_none": 3,
+        "detected_by": {
+          "detected_positive": 1,
+          "detected_negative": 2,
+          "detected_mixed": 0
+        }
+      }
+    ]
+  },
+  {
+    "text":"This is a sentence without any targets",
+    "targets":[
+    ]
+  }
+]

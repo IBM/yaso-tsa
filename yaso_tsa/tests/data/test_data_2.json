@@ -1,0 +1,20 @@
+[
+  {
+    "text":"This is a great concert",
+    "targets":[
+      {
+        "text":"concert",
+        "location":{
+          "begin":16,
+          "end":23
+        },
+        "sentiment":"positive"
+      }
+    ]
+  },
+  {
+    "text":"This is a second sentence without any targets",
+    "targets":[
+    ]
+  }
+]

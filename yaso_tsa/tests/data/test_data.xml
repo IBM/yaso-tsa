@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sentences>
+	<sentence>
+		<text>This is a great car</text>
+		<aspectTerms>
+			<aspectTerm from="16" polarity="positive" term="car" to="19"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>This is a great car, with an ugly color</text>
+		<aspectTerms>
+			<aspectTerm from="16" polarity="positive" term="car" to="19"/>
+			<aspectTerm from="35" polarity="negative" term="color" to="40"/>
+		</aspectTerms>
+	</sentence>
+	<sentence>
+		<text>This is a sentence without any targets</text>
+		<aspectTerms/>
+	</sentence>
+</sentences>
