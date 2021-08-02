@@ -4,7 +4,6 @@ title: "YASO: A New Benchmark for Targeted Sentiment Analysis"
 authors:
 - family-names: Orbach
   given-names: Matan
-  orcid: https://orcid.org/0000-0002-9538-7919
 - family-names: Toledo-Ronen
   given-names: Orith
 - family-names: Spector
@@ -15,6 +14,6 @@ authors:
   given-names: Yoav
 - family-names: Slonim
   given-names: Noam
-version: 0.6.0
+version: 1.0.0
 date-released: 2020-12-29
 license: Apache-2.0
