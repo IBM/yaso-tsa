@@ -14,15 +14,24 @@ logging.basicConfig(format='[%(threadName)s] %(asctime)s,%(msecs)d %(levelname)-
                     datefmt='%Y-%m-%d:%H:%M:%S',
                     level=logging.INFO)
 
-if __name__ == '__main__':
+
+def main():
     parser = argparse.ArgumentParser(description='Evaluate TSA predictions.')
-    parser.add_argument('--predictions_path', help='path to predictions json file')
-    parser.add_argument('--labels_path', help='path to labels json file')
+    parser.add_argument('--predictions_path', help='path to predictions json file', required=True)
+    parser.add_argument('--labels_path', help='path to labels json file', required=True)
+    parser.add_argument('--extend_labels',
+                        help='extend the tsa labels via rules (default: false)',
+                        action='store_true',
+                        default=False)
 
     args = parser.parse_args()
 
     predictions = TsaData.read_json(path=args.predictions_path)
     tsa_labels = TsaLabels.read_json(path=args.labels_path)
+    logging.info(f'Loaded labeled data: {tsa_labels}')
+    if args.extend_labels:
+        tsa_labels = tsa_labels.extend_labels()
+        logging.info(f'Extended labeled data: {tsa_labels}')
     analysis = AnalyzedPredictions(
         all_predictions=predictions.get_sentiment_targets(),
         labeled_data=tsa_labels
@@ -34,3 +43,7 @@ if __name__ == '__main__':
     report_metric(PRECISION)
     report_metric(RECALL)
     report_metric(F1)
+
+
+if __name__ == '__main__':
+    main()
