@@ -14,11 +14,14 @@ logging.basicConfig(format='[%(threadName)s] %(asctime)s,%(msecs)d %(levelname)-
                     datefmt='%Y-%m-%d:%H:%M:%S',
                     level=logging.INFO)
 
+LABELS_PATH = '--labels_path'
+PREDICTIONS_PATH = '--predictions_path'
+
 
 def main():
     parser = argparse.ArgumentParser(description='Evaluate TSA predictions.')
-    parser.add_argument('--predictions_path', help='path to predictions json file', required=True)
-    parser.add_argument('--labels_path', help='path to labels json file', required=True)
+    parser.add_argument(PREDICTIONS_PATH, help='path to predictions json file', required=True)
+    parser.add_argument(LABELS_PATH, help='path to labels json file', required=True)
     parser.add_argument('--extend_labels',
                         help='extend the tsa labels via rules (default: false)',
                         action='store_true',
@@ -33,12 +36,13 @@ def main():
         tsa_labels = tsa_labels.extend_labels()
         logging.info(f'Extended labeled data: {tsa_labels}')
     analysis = AnalyzedPredictions(
-        all_predictions=predictions.get_sentiment_targets(),
+        tsa_data=predictions,
         labeled_data=tsa_labels
     )
 
     def report_metric(metric):
-        logging.info(f'{metric}={analysis.get_stat(TARGETED_SENTIMENT_ANALYSIS, metric=metric)}')
+        logging.info(f'{metric}='
+                     f'{analysis.get_stat(task_name=TARGETED_SENTIMENT_ANALYSIS, metric=metric)}')
 
     report_metric(PRECISION)
     report_metric(RECALL)
