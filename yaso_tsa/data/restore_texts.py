@@ -30,11 +30,6 @@ def resolve_path(path):
     return path
 
 
-def param_yelp(args):
-    param = args.yelp
-    return None if param is None else {'yelp_dir': resolve_path(param)}
-
-
 def param_amazon(args):
     param = args.amazon
     return None if param is None else {'reviews_file': resolve_path(param)}
@@ -64,51 +59,6 @@ def param_semeval_14(args):
         if not os.path.exists(restaurants):
             raise ValueError(f'SemEval14 restaurants file does not exist: {os.path.abspath(restaurants)}')
     return {'xml_files': [laptops, restaurants]}
-
-
-def restore_yelp(items_to_restore, yelp_dir):
-    def read_businesses(yelp_dir):
-        businesses_file_path = os.path.join(yelp_dir, 'yelp_academic_dataset_business.json')
-        businesses = {}
-        with open(businesses_file_path, "rt", encoding="utf-8") as businesses_file:
-            for line in businesses_file:
-                business_properties = json.loads(line)
-                business_id = business_properties['business_id']
-                businesses[business_id] = business_properties
-        return businesses
-
-    review_ids = [review_id for (review_id, _) in items_to_restore]
-    businesses = read_businesses(yelp_dir)
-
-    hash_to_restored_sentence = {}
-    reviews_file = os.path.join(yelp_dir, 'yelp_academic_dataset_review.json')
-    with open(reviews_file, encoding='utf-8') as f:
-        for count, line in enumerate(f):
-            if (count + 1) % 100000 == 0:
-                found_sentences = len(hash_to_restored_sentence)
-                print(f'\tChecked {count + 1} reviews, found {found_sentences}/{len(items_to_restore)} sentences')
-
-            file_record = json.loads(line)
-            review_id = file_record['review_id']
-            if review_id not in review_ids:
-                continue
-
-            sentences = nltk.sent_tokenize(file_record['text'])
-            for sentence in sentences:
-                sentence = sentence.strip()
-                hash = (review_id, txt_sha1(sentence))
-                if hash in items_to_restore:
-                    restored_sentence = file_record.copy()
-                    restored_sentence['review_text'] = restored_sentence['text']
-                    restored_sentence['text'] = sentence
-                    business_id = restored_sentence['business_id']
-                    business = businesses[business_id]
-                    restored_sentence.update(business)
-                    hash_to_restored_sentence[hash] = restored_sentence
-                if len(hash_to_restored_sentence) == len(items_to_restore):
-                    return hash_to_restored_sentence
-
-    return hash_to_restored_sentence
 
 
 def restore_amazon(hashes, reviews_file):
@@ -257,10 +207,6 @@ def prepare_src_param(in_json, args):
 
 
 RESTORE_FUNCTIONS = {
-    'Yelp': {
-        'param_fun': param_yelp,
-        'restore_fun': restore_yelp,
-    },
     'Amazon': {
         'param_fun': param_amazon,
         'restore_fun': restore_amazon,
@@ -281,8 +227,6 @@ RESTORE_FUNCTIONS = {
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Restore sentences of the YASO evaluation set.')
-    parser.add_argument('--yelp', help='path to the directory containing the files yelp_academic_dataset_review.json'
-                                       ' and yelp_academic_dataset_business.json')
     parser.add_argument('--amazon', help='path to file dataset_en_test.json')
     parser.add_argument('--sst', help='path to directory stanfordSentimentTreebank')
     parser.add_argument('--opinosis', help='path to directory topics')
