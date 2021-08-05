@@ -9,7 +9,7 @@ import os
 import pandas as pd
 
 from yaso_tsa.infra.TsaLabels import TsaLabels
-from yaso_tsa.tests.test_utils import get_test_labels_path
+from yaso_tsa.tests.test_utils import get_test_labels_path, get_test_labels_with_the_path
 
 
 class TestTsaData(unittest.TestCase):
@@ -64,3 +64,11 @@ class TestTsaData(unittest.TestCase):
         labeled_clusters = tsa_labels.as_labeled_clusters()
         self.assertEqual(len(labeled_clusters), 4)
 
+    def test_extend_labels(self):
+        tsa_labels = TsaLabels.read_json(path=get_test_labels_with_the_path())
+        extended_labels = tsa_labels.extend_labels()
+        self.assertEqual(extended_labels.get_num_labels(), 3)
+
+        # Verify that the "car" target was not originally present, and that its now added
+        self.assertFalse(tsa_labels.is_labeled(target_text='car', text="The car is nice."))
+        self.assertTrue(extended_labels.is_labeled(target_text='car', text="The car is nice."))
