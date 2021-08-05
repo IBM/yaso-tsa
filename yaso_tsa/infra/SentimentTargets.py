@@ -237,6 +237,3 @@ class SentimentTargets:
     @staticmethod
     def get_random_state():
         return 888
-
-if __name__ == '__main__':
-    print('x')
