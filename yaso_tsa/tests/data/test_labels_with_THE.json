@@ -46,5 +46,96 @@
         }
       }
     ]
+  },
+  {
+    "text":"I like the car.",
+    "targets":[
+      {
+        "text":"the car",
+        "location":{
+          "begin":7,
+          "end":14
+        },
+        "sentiment":"positive",
+        "confidence": 0.71,
+        "num_annotations": 7,
+        "sentiment_positive": 5,
+        "sentiment_negative": 0,
+        "sentiment_mixed": 0,
+        "sentiment_none": 2,
+        "detected_by": {
+          "detected_positive": 2,
+          "detected_negative": 0,
+          "detected_mixed": 0
+        }
+      }
+    ]
+  },
+  {
+    "text":"I like the picture.",
+    "targets":[
+      {
+        "text":"picture",
+        "location":{
+          "begin":11,
+          "end":18
+        },
+        "sentiment":"positive",
+        "confidence": 0.71,
+        "num_annotations": 7,
+        "sentiment_positive": 5,
+        "sentiment_negative": 0,
+        "sentiment_mixed": 0,
+        "sentiment_none": 2,
+        "detected_by": {
+          "detected_positive": 2,
+          "detected_negative": 0,
+          "detected_mixed": 0
+        }
+      }
+    ]
+  },
+  {
+    "text": "This is a sentence without additions since the X and X are both labeled.",
+    "targets": [
+      {
+        "text": "the X",
+        "location": {
+          "begin": 43,
+          "end": 48
+        },
+        "sentiment": "positive",
+        "confidence": 1,
+        "num_annotations": 7,
+        "sentiment_positive": 7,
+        "sentiment_negative": 0,
+        "sentiment_mixed": 0,
+        "sentiment_none": 0,
+        "detected_by": {
+          "detected_positive": 2,
+          "detected_negative": 0,
+          "detected_mixed": 0
+        }
+      },
+      {
+        "text": "X",
+        "location": {
+          "begin": 47,
+          "end": 48
+        },
+        "sentiment": "negative",
+        "confidence": 0.71,
+        "num_annotations": 7,
+        "sentiment_positive": 5,
+        "sentiment_negative": 0,
+        "sentiment_mixed": 0,
+        "sentiment_none": 2,
+        "detected_by": {
+          "detected_positive": 2,
+          "detected_negative": 0,
+          "detected_mixed": 0
+        }
+      }
+    ]
   }
 ]

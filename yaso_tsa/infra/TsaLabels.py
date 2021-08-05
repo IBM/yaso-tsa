@@ -10,7 +10,8 @@ import pandas as pd
 
 from yaso_tsa.infra.LabeledCluster import LabeledCluster
 from yaso_tsa.infra.LabeledTarget import LabeledTarget
-from yaso_tsa.infra.SentimentTargets import SentimentTargets, SENTENCE_TEXT, TARGET_TEXT, TARGET_SENTIMENT, TARGET_BEGIN
+from yaso_tsa.infra.SentimentTargets import SentimentTargets, SENTENCE_TEXT, TARGET_TEXT, TARGET_SENTIMENT, \
+    TARGET_BEGIN, TARGET_END
 from yaso_tsa.infra.TsaData import TsaData
 
 TARGET_CONFIDENCE = 'confidence'
@@ -222,20 +223,52 @@ class TsaLabels:
         return SentimentTargets(frame=sentiment_targets_frame)
 
     def extend_labels(self):
+        result = self.extend_labels_by_removing_prefix(prefix='the ')
+        result = result.extend_lables_by_including_prefix(prefix='the ')
+        return result
+
+    def extend_labels_by_removing_prefix(self, prefix):
         '''
-        Project all labels starting with "The <x>", to <X>
-        For example in "The car is nice", if "The car" is labeled as positive, then
+        Project all labels starting with "<prefix> <x>", to "<x>"
+        For example in "The car is nice", for the prefix "The ", if "The car" is labeled positive, then
         this operation will add the label "car" with the same sentiment.
         :return:
             A TsaLabels() object containing the union of the original labels and the extended labels.
         '''
-        starts_with_the = self.frame[TARGET_TEXT].str.lower().str.startswith('the ')
-        labels_starting_with_the = self.frame[starts_with_the].copy()
-        labels_starting_with_the[TARGET_TEXT] = labels_starting_with_the[TARGET_TEXT].apply(lambda x: x[4:])
-        labels_starting_with_the[TARGET_BEGIN] = labels_starting_with_the[TARGET_BEGIN].apply(lambda x: x+4)
-        extended_frame = pd.concat([self.frame, labels_starting_with_the], ignore_index=True)
-        # keep the first duplicate, which is an un-extended label (so if both "The <X>" and <X>" are originally labeled,
-        # the extension of the label from "The <X>" is discarded, and the original label for <X> is kept).
+        target_starts_with_prefix = self.frame[TARGET_TEXT].str.lower().str.startswith(prefix)
+        return self._add_new_offseted_labels(target_starts_with_prefix, offset=len(prefix))
+
+    def extend_lables_by_including_prefix(self, prefix):
+        '''
+        Project all labels starting with "<x>" to "<prefix> <x>", if the prefix indeed appears
+        before <x> in the sentence.
+        For example in "The car is nice", for the prefix "The ", if "car" is labeled positive, then
+        this operation will add the label "The car" with the same sentiment.
+        :return:
+            A TsaLabels() object containing the union of the original labels and the extended labels.
+        '''
+
+        def has_prefix(row):
+            prefix_end = row[TARGET_BEGIN]
+            prefix_begin = prefix_end - len(prefix)
+            if prefix_begin >=0:
+                target_prefix = row[SENTENCE_TEXT][prefix_begin:prefix_end]
+                if target_prefix.lower() == prefix.lower():
+                    return True
+            return False
+
+        with_prefix = self.frame.apply(has_prefix, axis=1)
+        return self._add_new_offseted_labels(with_prefix, offset=-len(prefix))
+
+    def _add_new_offseted_labels(self, labels_to_add, offset):
+        new_labels = self.frame[labels_to_add].copy()
+        new_labels[TARGET_BEGIN] = new_labels[TARGET_BEGIN].apply(lambda x: x + offset)
+        new_labels[TARGET_TEXT] = new_labels.apply(
+            lambda row: row[SENTENCE_TEXT][row[TARGET_BEGIN]:row[TARGET_END]], axis=1)
+        extended_frame = pd.concat([self.frame, new_labels], ignore_index=True)
+        # keep the first duplicate, which is an the original label
+        # So, for example, if both "The <X>" and <X>" are originally labeled,
+        # the extension of the label from "The <X>" to <X> is discarded, and the original label for <X> is kept.
         extended_without_duplicates = extended_frame.drop_duplicates(subset=SentimentTargets.KEY_COLUMNS, keep='first')
         return TsaLabels(frame=extended_without_duplicates, sentences=self.sentences.copy())
 
