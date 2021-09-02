@@ -264,7 +264,7 @@ class TsaLabels:
         new_labels = self.frame[labels_to_add].copy()
         new_labels[TARGET_BEGIN] = new_labels[TARGET_BEGIN].apply(lambda x: x + offset)
         new_labels[TARGET_TEXT] = new_labels.apply(
-            lambda row: row[SENTENCE_TEXT][row[TARGET_BEGIN]:row[TARGET_END]], axis=1)
+            lambda row: row[SENTENCE_TEXT][row[TARGET_BEGIN]:row[TARGET_END]], axis=1, result_type='reduce')
         extended_frame = pd.concat([self.frame, new_labels], ignore_index=True)
         # keep the first duplicate, which is an the original label
         # So, for example, if both "The <X>" and <X>" are originally labeled,
