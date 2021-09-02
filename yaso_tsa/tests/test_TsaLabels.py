@@ -109,3 +109,9 @@ class TestTsaData(unittest.TestCase):
         # and override the original label
         self.assertEqual(1, get_confidence(target='the X', sentence=sentence, begin=43, end=48))
         self.assertEqual(0.71, get_confidence(target='X', sentence=sentence, begin=47, end=48))
+
+    def test_extend_labels_when_no_extensions_are_needed(self):
+        tsa_labels = TsaLabels.read_json(path=get_test_labels_path())
+        self.assertEqual(4, tsa_labels.get_num_labels())
+        extended_labels = tsa_labels.extend_labels()
+        self.assertEqual(4, extended_labels.get_num_labels())
