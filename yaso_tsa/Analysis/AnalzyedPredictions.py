@@ -476,7 +476,7 @@ class AnalyzedPredictions:
         Path(report_directory).mkdir(exist_ok=True, parents=True)
         return os.path.join(report_directory, f'{report_name}.csv')
 
-    def stats_at_threshold(self, task_name=TARGETED_SENTIMENT_ANALYSIS):
+    def stats_at_threshold(self, task_name=TARGETED_SENTIMENT_ANALYSIS, single_stat_per_threshold=False):
         is_correct_measure_name = get_measure_name(task_name=task_name, metric=IS_CORRECT)
         sorted_predictions = self.matched_predictions.sort_values(by=TARGET_SCORE, ascending=False)
         sorted_predictions = sorted_predictions[~sorted_predictions[IS_IGNORE_LABEL]]
@@ -492,6 +492,10 @@ class AnalyzedPredictions:
         result[RECALL] = recall
         result[F1] = result.apply(lambda x:  statistics.harmonic_mean([x[PRECISION], x[RECALL]]), axis=1)
         result[F05] = result.apply(lambda x: compute_f05(x[PRECISION], x[RECALL]), axis=1)
+        if single_stat_per_threshold:
+            # Drop the evaluation of multiple items with the same score (T). Only keep the stats of the last item,
+            # because they include the measures (e.g. precision/recall) calculated for all items with a score >=T
+            result.drop_duplicates(subset=TARGET_SCORE, keep='last', ignore_index=True, inplace=True)
         return result
 
 
