@@ -32,10 +32,21 @@ Alternatively, you can first clone the code, and install the requirements:
 
 <ins>Running an evaluation</ins>
 
-Use the module `yaso_tsa.evaluate_tsa`, for example run the following command from the main directory of the repository:  
+Use the module `yaso_tsa.evaluate_tsa`.
+ 
+For example, run the following command from the main directory of the repository:  
 
 ```commandline
 python -m yaso_tsa.evaluate_tsa --predictions_path tests/data/test_data.json --labels_path tests/data/test_labels.json
+```
+
+The expected output should be similar to:
+
+```text
+[MainThread] 2021-09-13:16:37:15,137 INFO     [evaluate_tsa.py:34] Loaded labeled data: <TsaLabels labeled: 4, sentences: 3>
+[MainThread] 2021-09-13:16:37:15,190 INFO     [evaluate_tsa.py:44] precision=0.6666666666666666
+[MainThread] 2021-09-13:16:37:15,190 INFO     [evaluate_tsa.py:44] recall=0.6666666666666666
+[MainThread] 2021-09-13:16:37:15,190 INFO     [evaluate_tsa.py:44] F1=0.6666666666666666
 ```
 
 ## Citing YASO
