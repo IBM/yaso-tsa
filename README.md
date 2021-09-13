@@ -35,7 +35,7 @@ Alternatively, you can first clone the code, and install the requirements:
 Use the module `yaso_tsa.evaluate_tsa`, for example run the following command from the main directory of the repository:  
 
 ```commandline
-python -m yaso_tsa.evaluate_tsa --predictions_path yaso_tsa/tests/data/test_data.json --labels_path yaso_tsa/tests/data/test_labels.json
+python -m yaso_tsa.evaluate_tsa --predictions_path tests/data/test_data.json --labels_path tests/data/test_labels.json
 ```
 
 ## Citing YASO
