@@ -8,7 +8,7 @@ import unittest
 import pandas as pd
 
 from yaso_tsa.infra.TsaData import TsaData
-from yaso_tsa.tests.test_utils import get_test_data_path, get_test_data_path_2, get_test_xml_data_path
+from test_utils import get_test_data_path, get_test_data_path_2, get_test_xml_data_path
 
 
 class TestTsaData(unittest.TestCase):

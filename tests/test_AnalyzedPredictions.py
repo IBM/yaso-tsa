@@ -9,7 +9,7 @@ from yaso_tsa.Analysis.AnalzyedPredictions import AnalyzedPredictions, EXACT_MAT
     NUM_PREDICTIONS, NUM_CORRECT, TARGETED_SENTIMENT_ANALYSIS, SENTIMENT_CLASSIFICATION
 from yaso_tsa.infra.TsaData import TsaData
 from yaso_tsa.infra.TsaLabels import TsaLabels
-from yaso_tsa.tests.test_utils import get_test_data_path, get_test_labels_path
+from test_utils import get_test_data_path, get_test_labels_path
 
 
 class TestAnalyzedPredictions(TestCase):

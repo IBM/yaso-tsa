@@ -10,7 +10,7 @@ import pandas as pd
 
 from yaso_tsa.infra.SentimentTargets import SENTENCE_TEXT, TARGET_END, TARGET_TEXT, TARGET_BEGIN
 from yaso_tsa.infra.TsaLabels import TsaLabels, TARGET_CONFIDENCE
-from yaso_tsa.tests.test_utils import get_test_labels_path, get_test_labels_with_the_path
+from test_utils import get_test_labels_path, get_test_labels_with_the_path
 
 
 class TestTsaData(unittest.TestCase):

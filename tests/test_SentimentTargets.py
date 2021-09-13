@@ -8,7 +8,7 @@ import os
 import pandas as pd
 
 from yaso_tsa.infra.SentimentTargets import SentimentTargets, SENTENCE_TEXT, TARGET_TEXT, TARGET_BEGIN, TARGET_END
-from yaso_tsa.tests.test_utils import get_test_data_path
+from test_utils import get_test_data_path
 
 
 class TestSentimentTargets(unittest.TestCase):

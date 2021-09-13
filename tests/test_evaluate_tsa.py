@@ -7,7 +7,7 @@ import unittest
 
 from yaso_tsa import evaluate_tsa
 from yaso_tsa.evaluate_tsa import PREDICTIONS_PATH, LABELS_PATH
-from yaso_tsa.tests.test_utils import get_test_data_path, get_test_labels_path
+from test_utils import get_test_data_path, get_test_labels_path
 
 
 class MyTestCase(unittest.TestCase):
