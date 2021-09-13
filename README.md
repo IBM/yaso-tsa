@@ -13,7 +13,30 @@ This repository contains:
 
 **Data**: Some of the sentences annotated in YASO are taken from other datasets that cannot be re-distributed in clear text. To obtain the original texts please follow the instructions [here](yaso_tsa/data/README.md).
 
-**Evaluation code**: TBD
+**Evaluation code**: 
+
+<ins>Installation</ins>
+
+Using pip:
+```
+pip install git+ssh://git@github.com/IBM/yaso-tsa.git#egg=yaso-tsa
+```
+
+Alternatively, you can first clone the code, and install the requirements: 
+
+```commandline
+1. git clone git@github.com:IBM/yaso-tsa.git
+2. cd yaso-tsa/yaso_tsa
+3. pip install -r requirements.txt
+```
+
+<ins>Running an evaluation</ins>
+
+Use the module `yaso_tsa.evaluate_tsa`, for example run the following command from the main directory of the repository:  
+
+```commandline
+python -m yaso_tsa.evaluate_tsa --predictions_path yaso_tsa/tests/data/test_data.json --labels_path yaso_tsa/tests/data/test_labels.json
+```
 
 ## Citing YASO
 
