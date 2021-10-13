@@ -106,6 +106,33 @@ class TsaLabels:
         result = numpy.hstack(result.values)
         return result
 
+    def shuffle(self):
+        """
+        Shuffle the order of the labels and the sentences.
+        :return: A shuffled TsaLabels object.
+        """
+        return TsaLabels(
+            frame=self.frame.sample(frac=1),
+            sentences=self.sentences.sample(frac=1)
+        )
+
+    def split_by_sentences(self, split_percentage):
+        """
+        Split the labes into two parts, given a desired size (in percentage)
+         for one of the parts. The split is done according to the current order
+         of the sentences.
+        :param split_percentage: The desired size (in percentage) of the size for
+        the first part. For example, 0.8 will create two parts, the first containing
+        80% of the labels, and the second containing 20% of the data.
+        :return: A list containing two TsaLabels objects, for the splitted parts.
+        """
+        sentences = self.get_sentences()
+        last_index = int(len(sentences) * split_percentage)
+        first_split_sentences = sentences[:last_index]
+        second_split_sentences = sentences[last_index:]
+        return [self.select_sentences(first_split_sentences),
+                self.select_sentences(second_split_sentences)]
+
     def to_csv(self, path, shuffle=False):
         output = self.frame
         if shuffle:
