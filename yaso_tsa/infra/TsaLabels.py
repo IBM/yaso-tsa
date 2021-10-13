@@ -139,7 +139,7 @@ class TsaLabels:
             output = output.sample(frac=1)
         output.to_csv(path)
 
-    def to_json(self, path):
+    def to_json(self, path, additional_fields=[]):
 
         def get_optional(single_target, column_name, default_value=0):
             if column_name in single_target.index:
@@ -148,7 +148,7 @@ class TsaLabels:
                 return default_value
 
         def to_dict(label):
-            return {
+            result = {
                 TARGET_CONFIDENCE: get_optional(label, TARGET_CONFIDENCE),
                 SENTIMENT_ANSWER_NUM_LABELERS: get_optional(label, SENTIMENT_ANSWER_NUM_LABELERS),
                 POSITIVE_ANSWER_COUNT: get_optional(label, POSITIVE_ANSWER_COUNT),
@@ -161,6 +161,8 @@ class TsaLabels:
                     DETECTION_MIXED: get_optional(label, DETECTION_MIXED)
                 }
             }
+            result.update({field: get_optional(label, field) for field in additional_fields})
+            return result
 
         from yaso_tsa.infra.TsaData import TsaData
         TsaData(SentimentTargets(frame=self.frame), sentences=self.sentences).to_json(path, to_dict=to_dict)
