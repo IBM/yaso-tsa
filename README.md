@@ -1,4 +1,4 @@
-# YASO-TSA
+# YASO: A Targeted Sentiment Analysis Evaluation Dataset for Open-Domain Reviews
 
 <!-- Not always needed, but a scope helps the user understand in a short sentance like below, why this repo exists -->
 ## Scope
@@ -53,8 +53,8 @@ The expected output should be similar to:
 
 If you are using YASO in a publication, please cite the following paper:
 
-Matan Orbach, Orith Toledo-Ronen, Artem Spector, Ranit Aharonov, Yoav Katz and Noam Slonim.
-[YASO: A New Benchmark for Targeted Sentiment Analysis](https://arxiv.org/abs/2012.14541). 2020. Arxiv preprint.  
+Matan Orbach, Orith Toledo-Ronen, Artem Spector, Ranit Aharonov, Yoav Katz and Noam Slonim. 2021.
+[YASO: A Targeted Sentiment Analysis Evaluation Dataset for Open-Domain Reviews](https://arxiv.org/abs/2012.14541). EMNLP.  
 
 ## Contributing
 
