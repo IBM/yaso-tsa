@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this data or software, please cite the paper below."
-title: "YASO: A New Benchmark for Targeted Sentiment Analysis"
+title: "YASO: A Targeted Sentiment Analysis Evaluation Dataset for Open-Domain Reviews"
 authors:
 - family-names: Orbach
   given-names: Matan
@@ -18,3 +18,4 @@ version: 1.0.0
 date-released: 2020-12-29
 license: Apache-2.0
 url: "https://arxiv.org/abs/2012.14541"
+repository-code: "https://github.com/IBM/yaso-tsa"
