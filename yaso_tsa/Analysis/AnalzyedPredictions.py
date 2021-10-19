@@ -104,6 +104,7 @@ class AnalyzedPredictions:
         valid_targets = labeled_data.get_valid_targets()
         non_targets = labeled_data.get_non_targets()
         labeled_clusters = valid_targets.as_labeled_clusters()
+        num_labeled_clusters = len(labeled_clusters)
         self.stats = {
             NUM_INPUT_SENTENCES: len(tsa_data.get_sentences()),
             NUM_LABELED_INPUT_SENTENCES: labeled_data.get_num_sentences(),
@@ -111,7 +112,7 @@ class AnalyzedPredictions:
             NUM_TARGET_PREDICTIONS: predictions.get_num_targets(),
             'num labels': labeled_data.get_num_labels(),
             'num valid labels': valid_targets.get_num_labels(),
-            NUM_LABELED_CLUSTERS: len(labeled_clusters),
+            NUM_LABELED_CLUSTERS: num_labeled_clusters,
             'num non-valid labels': non_targets.get_num_labels()}
         self.matched_predictions = self.match_predictions_to_labels(
             cluster_labels=labeled_clusters,
@@ -121,17 +122,14 @@ class AnalyzedPredictions:
             cluster_labels=labeled_clusters,
             predictions=all_predictions,
             matchers=matchers)
-        self.matched_labels['is_covered_label'] = self.matched_labels['# predictions'] > 0
-        self.stats[NUM_COVERED_VALID_TARGET_GROUPS] = self.matched_labels['is_covered_label'].sum()
-        self.stats[PERCENTAGE_COVERED_VALID_TARGET_GROUPS] = self.stats[NUM_COVERED_VALID_TARGET_GROUPS] / \
-                                                             self.stats[NUM_LABELED_CLUSTERS]
 
-        def has_prediction(predictions, label):
-            return any(prediction.label == label for prediction in predictions)
-        self.matched_labels['is_matched_to_none_prediction'] = self.matched_labels.apply(
-            lambda match: has_prediction(match[PREDICTIONS], 'none'), axis=1)
-        self.stats[self.NUM_NONE_PREDICTIONS_OF_VALID_TARGETS] = \
-            sum(self.matched_labels['is_matched_to_none_prediction'])
+        def sum_column_if_exists(frame, column_name):
+            return frame[column_name].sum() if column_name in frame.columns else 0
+        self.stats[NUM_COVERED_VALID_TARGET_GROUPS] = sum_column_if_exists(self.matched_labels, 'is_covered_label')
+        self.stats[PERCENTAGE_COVERED_VALID_TARGET_GROUPS] = self.stats[NUM_COVERED_VALID_TARGET_GROUPS] / \
+                                                             num_labeled_clusters if num_labeled_clusters > 0 else 0
+
+        self.stats[self.NUM_NONE_PREDICTIONS_OF_VALID_TARGETS] = sum_column_if_exists(self.matched_labels, 'is_covered_label')
 
         self.match_to_non_targets(non_targets)
         self.match_to_ignore_labels(ignore_labels)
@@ -379,14 +377,21 @@ class AnalyzedPredictions:
             })
         result = pandas.DataFrame(matched_labels)
 
-        result = AnalyzedPredictions.expand_predictions(result)
-        result = AnalyzedPredictions.expand_labels(result)
+        if len(cluster_labels) > 0:
+            result = AnalyzedPredictions.expand_predictions(result)
+            result = AnalyzedPredictions.expand_labels(result)
+            result['is_covered_label'] = result.apply(lambda x: x['# predictions'] > 0, axis=1)
+
+            def has_prediction(predictions, label):
+                return any(prediction.label == label for prediction in predictions)
+            result['is_matched_to_none_prediction'] = result.apply(
+                lambda match: has_prediction(match[PREDICTIONS], 'none'), axis=1)
         return result
 
     @staticmethod
     def expand_predictions(matched_frame):
         if PREDICTIONS not in matched_frame.columns:
-            return
+            return matched_frame
         matched_frame['# predictions'] = matched_frame[PREDICTIONS].apply(len)
         predictions_column = matched_frame[PREDICTIONS]
         result = []
@@ -406,8 +411,8 @@ class AnalyzedPredictions:
 
     @staticmethod
     def expand_labels(matched_frame, labels_column_name=LABELS):
-        if labels_column_name not in matched_frame:
-            return
+        if labels_column_name not in matched_frame.columns:
+            return matched_frame
 
         labels_column = matched_frame[labels_column_name]
         matched_frame['# labels'] = labels_column.apply(len)
@@ -466,10 +471,12 @@ class AnalyzedPredictions:
         unlabeled_predictions.to_csv(self.get_report_path(directory, report_name='unlabeled_predictions'))
 
         self.matched_labels.to_csv(self.get_report_path(directory, report_name='matched_labels'))
-        is_covered = self.matched_labels['is_covered_label']
-        unmatched_labels = self.matched_labels[~is_covered].copy()
-        unmatched_labels.dropna(how='all', axis=1, inplace=True)
-        unmatched_labels.to_csv(self.get_report_path(directory, report_name='unmatched_labels'))
+        if 'is_covered_label' in self.matched_labels:
+            # may be missing if labels include only sentences without targets
+            is_covered = self.matched_labels['is_covered_label']
+            unmatched_labels = self.matched_labels[~is_covered].copy()
+            unmatched_labels.dropna(how='all', axis=1, inplace=True)
+            unmatched_labels.to_csv(self.get_report_path(directory, report_name='unmatched_labels'))
 
     @staticmethod
     def get_report_path(report_directory, report_name):

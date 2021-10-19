@@ -103,7 +103,8 @@ class TsaLabels:
         labeled_targets = self.frame.groupby(SENTENCE_TEXT).apply(
             lambda x: LabeledTarget.create(frame=x))
         result = labeled_targets.apply(LabeledCluster.create_clusters)
-        result = numpy.hstack(result.values)
+        result = result.values
+        result = numpy.hstack(result) if len(result) > 0 else result
         return result
 
     def shuffle(self):
