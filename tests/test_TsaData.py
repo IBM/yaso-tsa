@@ -47,7 +47,7 @@ class TestTsaData(unittest.TestCase):
 
     def test_get_name(self):
         tsa_data = TsaData.read_json(path=get_test_data_path())
-        self.assertEqual(tsa_data.get_name(), 'data\\test_data.json')
+        self.assertEqual(tsa_data.get_name(), os.path.join('data', 'test_data.json'))
 
     def test_get_sentences_with_predictions(self):
         tsa_data = TsaData.read_json(path=get_test_data_path())
