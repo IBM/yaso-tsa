@@ -19,6 +19,7 @@ TARGET_SCORE = 'confidence'
 class SentimentTargets:
 
     KEY_COLUMNS = [TARGET_TEXT, SENTENCE_TEXT, TARGET_BEGIN, TARGET_END]
+    MANDATORY_COLUMNS = KEY_COLUMNS + [TARGET_SENTIMENT]
 
     @staticmethod
     def read_json(path, meta_fields=[]):
@@ -46,8 +47,9 @@ class SentimentTargets:
                 },
                 inplace=True
             )
-            sentiment_targets[TARGET_BEGIN] = sentiment_targets[TARGET_BEGIN].astype(int)
-            sentiment_targets[TARGET_END] = sentiment_targets[TARGET_END].astype(int)
+            if not sentiment_targets.empty:
+                sentiment_targets[TARGET_BEGIN] = sentiment_targets[TARGET_BEGIN].astype(int)
+                sentiment_targets[TARGET_END] = sentiment_targets[TARGET_END].astype(int)
             result = SentimentTargets(frame=sentiment_targets)
             result = result.update_sentiment(old='neutral', new='none')
             return result
@@ -55,14 +57,14 @@ class SentimentTargets:
     def __init__(self, frame=None):
         if frame is not None:
             if frame.empty:
-                self.frame = pd.DataFrame(columns=self.KEY_COLUMNS)
+                self.frame = pd.DataFrame(columns=self.MANDATORY_COLUMNS)
             else:
                 self.frame = frame.copy()
-                missing_columns = [key_column for key_column in self.KEY_COLUMNS if key_column not in self.frame.columns]
+                missing_columns = [column_name for column_name in self.MANDATORY_COLUMNS if column_name not in self.frame.columns]
                 if missing_columns:
-                    raise ValueError(f'Missing "{missing_columns}" key columns from frame.')
+                    raise ValueError(f'Missing "{missing_columns}" columns from frame.')
         else:
-            self.frame = pd.DataFrame(columns=self.KEY_COLUMNS)
+            self.frame = pd.DataFrame(columns=self.MANDATORY_COLUMNS)
 
     def __repr__(self):
         return f"<SentimentTargets , " \
