@@ -148,7 +148,7 @@ class TsaData:
         shuffled_sentences = self.__sentences.sample(frac=1, random_state=SentimentTargets.get_random_state())
         return TsaData(sentiment_targets=shuffled_targets, sentences=shuffled_sentences)
 
-    def to_json(self, path, to_dict=None):
+    def to_json(self, path, to_dict=None, shuffle=False):
 
         # convert one sentence to a dictionary representation
         def single_sentence_as_dictionary(single_text_sentiment_targets):
@@ -178,6 +178,9 @@ class TsaData:
                 'text': sentence,
                 'targets': []
             }
+        if shuffle:
+            logging.info("Shuffling output")
+            sentences = sentences.sample(frac=1)
         sentences.to_json(path, orient='records', double_precision=2, indent=2)
         num_sentences_without_targets = len(sentences_without_targets)
         logging.info(f'{len(sentences)} sentences (without targets: {num_sentences_without_targets}) '

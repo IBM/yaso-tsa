@@ -140,7 +140,7 @@ class TsaLabels:
             output = output.sample(frac=1)
         output.to_csv(path)
 
-    def to_json(self, path, additional_fields=[]):
+    def to_json(self, path, additional_fields=[], shuffle=False):
 
         def get_optional(single_target, column_name, default_value=0):
             if column_name in single_target.index:
@@ -166,7 +166,8 @@ class TsaLabels:
             return result
 
         from yaso_tsa.infra.TsaData import TsaData
-        TsaData(SentimentTargets(frame=self.frame), sentences=self.sentences).to_json(path, to_dict=to_dict)
+        as_tsa_data = TsaData(SentimentTargets(frame=self.frame), sentences=self.sentences)
+        as_tsa_data.to_json(path, to_dict=to_dict, shuffle=shuffle)
 
     def add_detection_annotations(self, detection_annotations):
         self.frame = self.frame.merge(
