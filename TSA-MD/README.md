@@ -2,9 +2,14 @@
 
 This folder contains the Targeted Sentiment Analysis Multi-Domain (TSA-MD) dataset.
 
-This dataset is described in the paper [Multi-Domain Targeted Sentiment Analysis (Toledo-Ronen et al. 2022)](https://arxiv.org/abs/2205.03804), published in NAACL 2022.
+The dataset is described in the paper [Multi-Domain Targeted Sentiment Analysis (Toledo-Ronen et al. 2022)](https://arxiv.org/abs/2205.03804), published in NAACL 2022.
 
 Overall, the dataset contains 952 sentences of reviews from multiple domains. 
+
+## Cite
+
+If you are using this dataset, please cite our paper [Multi-Domain Targeted Sentiment Analysis (Toledo-Ronen et al. 2022)](https://arxiv.org/abs/2205.03804).
+
 
 ## Collection
 
