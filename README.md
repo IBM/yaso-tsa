@@ -7,7 +7,9 @@ This repository contains:
 
  (1) The YASO evaluation dataset for targeted sentiment analysis (TSA).
 
- (2) Code for evaluating the output of TSA systems on YASO.  
+ (2) Code for evaluating the output of TSA systems on YASO.
+
+ (3) New! The TSA-MD dataset, described [here](./TSA-MD/README.md).
 
 ## Usage
 
