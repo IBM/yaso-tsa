@@ -1,7 +1,7 @@
 [
   {
     "text":"\"I bought this video game a week ago, I really liked the story, a bit boring at first, but then it becomes interesting, sometimes it gets a bit buggy, but I think it must be because my pc lacks maintenance.,\"",
-    "target_mentions":[
+    "targets":[
       {
         "text":"pc",
         "location":{
@@ -27,7 +27,7 @@
   },
   {
     "text":"A few weeks ago I tried using my Citizen's Bank card and it wouldn't work when I inserted into the machine at the store.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"Citizen's Bank card",
         "location":{
@@ -53,7 +53,7 @@
   },
   {
     "text":"A quiet place, away from the city.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"place",
         "location":{
@@ -79,7 +79,7 @@
   },
   {
     "text":"Actually a lousy hotel.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"hotel",
         "location":{
@@ -105,7 +105,7 @@
   },
   {
     "text":"All the food was cold like it been setting out for awhile.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -131,7 +131,7 @@
   },
   {
     "text":"Alternative medicine allows us to have other points of view of how to improve our health in a more natural way and in some cases without having to go through an operating room, it is widely used lately",
-    "target_mentions":[
+    "targets":[
       {
         "text":"Alternative medicine",
         "location":{
@@ -157,7 +157,7 @@
   },
   {
     "text":"Although their service was lousy.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -183,7 +183,7 @@
   },
   {
     "text":"Always a pleasure to use.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"to use",
         "location":{
@@ -209,7 +209,7 @@
   },
   {
     "text":"Always proactively keep me up to date with changes to their site and offer the best conversion rates when it comes to currency.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"conversion rates",
         "location":{
@@ -235,7 +235,7 @@
   },
   {
     "text":"Amazon is excellent site to order anything you want but the shipments may be delayed",
-    "target_mentions":[
+    "targets":[
       {
         "text":"shipments",
         "location":{
@@ -261,7 +261,7 @@
   },
   {
     "text":"And it is inexpensive.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -287,7 +287,7 @@
   },
   {
     "text":"And the parking lot was in the best location.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"location",
         "location":{
@@ -334,7 +334,7 @@
   },
   {
     "text":"And the service was very very fast!",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -360,7 +360,7 @@
   },
   {
     "text":"And we have a great experience abut it, the person was very kind, indeed help us to bring in our home better vibes, better energy, new designs, and we learn from him a lot and it was cheap.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"person",
         "location":{
@@ -449,7 +449,7 @@
   },
   {
     "text":"Bad: very expensive compared to other services like Disney, Amazon.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"services",
         "location":{
@@ -496,7 +496,7 @@
   },
   {
     "text":"Booking.com is very easy to use and has a lot of offers and cashbacks.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"Booking.com",
         "location":{
@@ -522,7 +522,7 @@
   },
   {
     "text":"But I didn't like that the parking lot was very small, and taxi service was hardly ever available.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"taxi service",
         "location":{
@@ -569,7 +569,7 @@
   },
   {
     "text":"But it will always be the best option.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"option",
         "location":{
@@ -595,7 +595,7 @@
   },
   {
     "text":"But overall, it was good to be there.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"there",
         "location":{
@@ -621,7 +621,7 @@
   },
   {
     "text":"But the attention sucks, the employees aren\u00b4t nice people",
-    "target_mentions":[
+    "targets":[
       {
         "text":"attention",
         "location":{
@@ -668,7 +668,7 @@
   },
   {
     "text":"But the food was very expensive, I was hoping they would give us even free breakfast.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -694,7 +694,7 @@
   },
   {
     "text":"But the rest, I recommend it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -720,7 +720,7 @@
   },
   {
     "text":"But the rooms were very nice and immaculate.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"rooms",
         "location":{
@@ -746,7 +746,7 @@
   },
   {
     "text":"But the sound was very loud.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"sound",
         "location":{
@@ -772,7 +772,7 @@
   },
   {
     "text":"But then it got slow and the camera stopped working.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"camera",
         "location":{
@@ -819,7 +819,7 @@
   },
   {
     "text":"By far my favourite and easiest to access bakery that offers not just the best quality products but also the cheapest.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"quality products",
         "location":{
@@ -866,7 +866,7 @@
   },
   {
     "text":"Cars are the most used means of transport today, despite their costly maintenance, they are a tool that allows us to go from one place to another; and through time it has evolved making them faster and more aerodynamic",
-    "target_mentions":[
+    "targets":[
       {
         "text":"maintenance",
         "location":{
@@ -892,7 +892,7 @@
   },
   {
     "text":"Cash a check for the application and it was charged 2 times I had problems with an account lock so it really was not a good experience",
-    "target_mentions":[
+    "targets":[
       {
         "text":"account lock",
         "location":{
@@ -960,7 +960,7 @@
   },
   {
     "text":"Clean and spacious room.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"room",
         "location":{
@@ -986,7 +986,7 @@
   },
   {
     "text":"Days ago I bought a dell laptop and it is very good, I recommend it has a good processor and the battery lasts a long time.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"dell laptop",
         "location":{
@@ -1054,7 +1054,7 @@
   },
   {
     "text":"Despite being an international company, the quality of its food and service has dropped a lot due to the high demand it has.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"quality of its food and service",
         "location":{
@@ -1080,7 +1080,7 @@
   },
   {
     "text":"Easy to pay for contactless and the delivery driver was more than helpful.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"delivery driver",
         "location":{
@@ -1127,7 +1127,7 @@
   },
   {
     "text":"Everyone in the MetroPCS store were very friendly.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"Everyone in the MetroPCS store",
         "location":{
@@ -1153,7 +1153,7 @@
   },
   {
     "text":"Excellent attention.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"attention",
         "location":{
@@ -1179,7 +1179,7 @@
   },
   {
     "text":"Excellent customer service at the time of purchasing a ticket.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"customer service",
         "location":{
@@ -1205,7 +1205,7 @@
   },
   {
     "text":"Excellent experience.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"experience",
         "location":{
@@ -1231,7 +1231,7 @@
   },
   {
     "text":"Excellent facilities, good amenities and with good lighting for night sporting events.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"facilities",
         "location":{
@@ -1278,7 +1278,7 @@
   },
   {
     "text":"Excellent in sales and mounting of tires for your vehicle, with quite nice prices and credit.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"sales and mounting of tires",
         "location":{
@@ -1346,7 +1346,7 @@
   },
   {
     "text":"Excellent place to spend the holidays.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"place",
         "location":{
@@ -1372,7 +1372,7 @@
   },
   {
     "text":"Excellent service, very good food, the salad was incredible, the dressing was the perfect touch.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -1461,7 +1461,7 @@
   },
   {
     "text":"Excellent, especially the service and amenities, sometimes you get one or another inconvenience but in general, excellent service.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -1487,7 +1487,7 @@
   },
   {
     "text":"Exceptionally quick boot up and ease of access.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"access",
         "location":{
@@ -1534,7 +1534,7 @@
   },
   {
     "text":"Extensive range of products that are much more fairly priced than most other brands.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"priced",
         "location":{
@@ -1581,7 +1581,7 @@
   },
   {
     "text":"First time using this online supermarket, huge range of products and offers much better prices than some competitors.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"prices",
         "location":{
@@ -1649,7 +1649,7 @@
   },
   {
     "text":"Food transport trucks are very important since they distribute the food according to the required demand.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"Food transport trucks",
         "location":{
@@ -1675,7 +1675,7 @@
   },
   {
     "text":"Food trucks its the best idea possible, its cheap, fast, tasty and super cool, serve your food in a truck with so many colors, its a great experience.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"idea",
         "location":{
@@ -1743,7 +1743,7 @@
   },
   {
     "text":"Good application, but could improve, especially at the time of synchronization, sometimes it generates an error when downloading the songs\nStar; 4",
-    "target_mentions":[
+    "targets":[
       {
         "text":"downloading",
         "location":{
@@ -1790,7 +1790,7 @@
   },
   {
     "text":"Good attention, but the menu did not have many options.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"menu",
         "location":{
@@ -1837,7 +1837,7 @@
   },
   {
     "text":"Good hotel, the attention is very bad, they do not have room service and the bathroom is extremely small.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"attention",
         "location":{
@@ -1905,7 +1905,7 @@
   },
   {
     "text":"Good service, efficient and with the best prices on the market.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -1952,7 +1952,7 @@
   },
   {
     "text":"Great battle system and all in all, utterly engrossing.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"battle system",
         "location":{
@@ -1978,7 +1978,7 @@
   },
   {
     "text":"Great content, categories, and variety of material o choose from and nice service to the customer also.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"content",
         "location":{
@@ -2067,7 +2067,7 @@
   },
   {
     "text":"Great customer service and easy to contact if something does go wrong.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"contact",
         "location":{
@@ -2114,7 +2114,7 @@
   },
   {
     "text":"Has it's best own range products and has the best delivery service.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"delivery service",
         "location":{
@@ -2161,7 +2161,7 @@
   },
   {
     "text":"Has the best range of both products and promotions in tandem.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"range of both products and promotions",
         "location":{
@@ -2187,7 +2187,7 @@
   },
   {
     "text":"Has the best range of frozen foods or the best price, a little bare when it comes to more fresh offerings.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"fresh offerings",
         "location":{
@@ -2255,7 +2255,7 @@
   },
   {
     "text":"He prescribed some medicines that helped me a lot.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"medicines",
         "location":{
@@ -2302,7 +2302,7 @@
   },
   {
     "text":"He was right.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"He",
         "location":{
@@ -2328,7 +2328,7 @@
   },
   {
     "text":"His articulation has improved and now he sounds much clearer and his volume is louder.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"articulation",
         "location":{
@@ -2417,7 +2417,7 @@
   },
   {
     "text":"How was your experieYoga is an art of meditation together with gymnastic movements that help us improve our health in all areas\nthe bad thing about yoga is that there are people who are not capable of doing the required movements so it is limited to a group of capable people",
-    "target_mentions":[
+    "targets":[
       {
         "text":"experieYoga",
         "location":{
@@ -2464,7 +2464,7 @@
   },
   {
     "text":"Hugely expansive and offers more content than you know what to do with, fantastic soundtrack and visuals to accompany it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"soundtrack and visuals",
         "location":{
@@ -2511,7 +2511,7 @@
   },
   {
     "text":"I HAD SOME CUPCAKES THIS MORNING AND THEY WERE VERY DELICIOUS",
-    "target_mentions":[
+    "targets":[
       {
         "text":"CUPCAKES",
         "location":{
@@ -2537,7 +2537,7 @@
   },
   {
     "text":"I admit that i have a nice time with my family  .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"time with my family",
         "location":{
@@ -2563,7 +2563,7 @@
   },
   {
     "text":"I always buy my phones from MetroPCS because they have great customer service.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"customer service",
         "location":{
@@ -2610,7 +2610,7 @@
   },
   {
     "text":"I am really disappointed by the product as the battery on the vacuum runs out after 1 minutes despite charging for hours.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"product",
         "location":{
@@ -2657,7 +2657,7 @@
   },
   {
     "text":"I am satisfied with the product for the price I pay, has a regular quality.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"price",
         "location":{
@@ -2704,7 +2704,7 @@
   },
   {
     "text":"I am very fond of video games and I always love the store that has new and varied games .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"video games",
         "location":{
@@ -2751,7 +2751,7 @@
   },
   {
     "text":"I asked for a glass of water twice which I never did receive.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"asked for a glass of water twice",
         "location":{
@@ -2777,7 +2777,7 @@
   },
   {
     "text":"I bought a beam painting in excellent condition.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"beam painting",
         "location":{
@@ -2824,7 +2824,7 @@
   },
   {
     "text":"I bought a book about sexual life and it helped me in mine.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"book about sexual life",
         "location":{
@@ -2850,7 +2850,7 @@
   },
   {
     "text":"I bought a car at a great price, has a nice engine, but had some issue with GPS.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"price",
         "location":{
@@ -2918,7 +2918,7 @@
   },
   {
     "text":"I bought a cell phone with three cameras, I loved the price and the resolution of the photos",
-    "target_mentions":[
+    "targets":[
       {
         "text":"resolution of the photos",
         "location":{
@@ -2965,7 +2965,7 @@
   },
   {
     "text":"I bought a comic book for my children and they read it everyday and laugh on it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"comic book",
         "location":{
@@ -2991,7 +2991,7 @@
   },
   {
     "text":"I bought a mobile phone yesterday and I have to admit that  i am so happy to dealing with this shop .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"shop",
         "location":{
@@ -3017,7 +3017,7 @@
   },
   {
     "text":"I bought a new laptop HP that has an awesome battery.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"laptop HP",
         "location":{
@@ -3064,7 +3064,7 @@
   },
   {
     "text":"I bought a new router for my internet, has an easy configuration, but it has some bug with the stability of connexion.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"stability of connexion",
         "location":{
@@ -3111,7 +3111,7 @@
   },
   {
     "text":"I bought a nike free 9.0 a week ago and they are too comfortable.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"nike free 9.0",
         "location":{
@@ -3137,7 +3137,7 @@
   },
   {
     "text":"I bought a pair of earphones, have a very nice design, but are very noisy sound.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"sound",
         "location":{
@@ -3184,7 +3184,7 @@
   },
   {
     "text":"I bought a power supply 4 months ago and it was my best purchase.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"purchase",
         "location":{
@@ -3231,7 +3231,7 @@
   },
   {
     "text":"I bought a tablet with android 9.0 about 4 months ago.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"tablet",
         "location":{
@@ -3257,7 +3257,7 @@
   },
   {
     "text":"I bought a tv a few months ago and I was treated with the upmost respect.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"treated",
         "location":{
@@ -3283,7 +3283,7 @@
   },
   {
     "text":"I bought a video game that I found excellent, at a very good price and very entertaining",
-    "target_mentions":[
+    "targets":[
       {
         "text":"video game",
         "location":{
@@ -3330,7 +3330,7 @@
   },
   {
     "text":"I bought an SSD hard drive 4 months ago and it was my best buy.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"buy",
         "location":{
@@ -3398,7 +3398,7 @@
   },
   {
     "text":"I bought an android 10.1 phone a week ago and it is super fast and light.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"android 10.1 phone",
         "location":{
@@ -3424,7 +3424,7 @@
   },
   {
     "text":"I bought an android 10.1 tablet a week ago and it is super fast and light.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -3471,7 +3471,7 @@
   },
   {
     "text":"I bought empanadas for breakfast, the filling was pavilion, they were very delicious, delicious, I loved them.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"empanadas",
         "location":{
@@ -3497,7 +3497,7 @@
   },
   {
     "text":"I bought one jar of honey and it was very delicious and I gave it to an expert and he confirmed it's organic.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"jar of honey",
         "location":{
@@ -3523,7 +3523,7 @@
   },
   {
     "text":"I bought read dead redemption 2 for my son who is 18 and he loved it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"read dead redemption 2",
         "location":{
@@ -3549,7 +3549,7 @@
   },
   {
     "text":"I bought some frsh shrimp rom the fish store and it was fresh and large.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"frsh shrimp",
         "location":{
@@ -3575,7 +3575,7 @@
   },
   {
     "text":"I bought some salmon and scrimp pies from the bakery and they were fresh and hot.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"salmon and scrimp pies",
         "location":{
@@ -3601,7 +3601,7 @@
   },
   {
     "text":"I bought some sausage from the grocery and they were fresh and tasted good.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"sausage",
         "location":{
@@ -3648,7 +3648,7 @@
   },
   {
     "text":"I bought some shirts from the clothes shop and they were nice looking and cheap.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"shirts",
         "location":{
@@ -3674,7 +3674,7 @@
   },
   {
     "text":"I bought these headphones one week ago and it was working fine and suddenly the sound started to be unclear.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"sound",
         "location":{
@@ -3700,7 +3700,7 @@
   },
   {
     "text":"I bought this car only 3 months ago, and the engine is failing, it does not have much power when accelerating.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"car",
         "location":{
@@ -3768,7 +3768,7 @@
   },
   {
     "text":"I bought this cell phone a month ago, it is a good option for simple things, if you want good photos it is not a good option",
-    "target_mentions":[
+    "targets":[
       {
         "text":"photos",
         "location":{
@@ -3815,7 +3815,7 @@
   },
   {
     "text":"I bought this device 2 years ago and i still love this device .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"device",
         "location":{
@@ -3841,7 +3841,7 @@
   },
   {
     "text":"I bought this notebook cheaply.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"notebook",
         "location":{
@@ -3867,7 +3867,7 @@
   },
   {
     "text":"I bought this phone 1 year ago and I have many problems with this phone .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"phone",
         "location":{
@@ -3914,7 +3914,7 @@
   },
   {
     "text":"I bought two loaves of big bread and they were hot and fresh and delicious that you can it the bread alone.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"two loaves of big bread",
         "location":{
@@ -3940,7 +3940,7 @@
   },
   {
     "text":"I called Citizen's Bank and they approved my purchase and also sent me a new card that I received a few days later.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"Citizen's Bank",
         "location":{
@@ -3966,7 +3966,7 @@
   },
   {
     "text":"I came to this warehouse to look for some products to remodel my house, very well organized but the treatment of the employees is very bad, I will not buy here again.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"organized",
         "location":{
@@ -4013,7 +4013,7 @@
   },
   {
     "text":"I change the oil to my car and I'm failing, I don't recommend this place.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"this place",
         "location":{
@@ -4039,7 +4039,7 @@
   },
   {
     "text":"I definitely recommend it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -4065,7 +4065,7 @@
   },
   {
     "text":"I did not like that the pool was not clean.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"pool",
         "location":{
@@ -4091,7 +4091,7 @@
   },
   {
     "text":"I didn't regret buying it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -4117,7 +4117,7 @@
   },
   {
     "text":"I do not recommend it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -4143,7 +4143,7 @@
   },
   {
     "text":"I do not recommend this company to anyone.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"company",
         "location":{
@@ -4169,7 +4169,7 @@
   },
   {
     "text":"I doesn`t like health center, because they treat the pacients like animals..",
-    "target_mentions":[
+    "targets":[
       {
         "text":"health center",
         "location":{
@@ -4216,7 +4216,7 @@
   },
   {
     "text":"I don't like it at all.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -4242,7 +4242,7 @@
   },
   {
     "text":"I don't like shopping, I have a hard time choosing what to buy and I waste a lot of time",
-    "target_mentions":[
+    "targets":[
       {
         "text":"choosing what to buy",
         "location":{
@@ -4289,7 +4289,7 @@
   },
   {
     "text":"I don't recommend this memory card to anyone.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"memory card",
         "location":{
@@ -4315,7 +4315,7 @@
   },
   {
     "text":"I don't regret buying it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -4341,7 +4341,7 @@
   },
   {
     "text":"I downloaded the Spotify app and is great with the service stream, has a nice variety of artist, but to access so everything has to be paid for it, and I don\u00b4t like too much that part.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"paid for it",
         "location":{
@@ -4430,7 +4430,7 @@
   },
   {
     "text":"I enjoyed my stay there.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"my stay",
         "location":{
@@ -4456,7 +4456,7 @@
   },
   {
     "text":"I feel much better now.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"I",
         "location":{
@@ -4482,7 +4482,7 @@
   },
   {
     "text":"I feel safe in this car.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"car",
         "location":{
@@ -4508,7 +4508,7 @@
   },
   {
     "text":"I feel that I have more navigation speed compared to my old equipment and I can be at a considerable distance",
-    "target_mentions":[
+    "targets":[
       {
         "text":"navigation speed",
         "location":{
@@ -4534,7 +4534,7 @@
   },
   {
     "text":"I finally find my foveate kind of chocolates  with a cheap price .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"chocolates",
         "location":{
@@ -4581,7 +4581,7 @@
   },
   {
     "text":"I fried it with some salt and pepper and it was the most delicious thing i have ever tasted.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"thing i have ever tasted",
         "location":{
@@ -4628,7 +4628,7 @@
   },
   {
     "text":"I had my sperm gets out quickly after penetration so I visited the doctor and he gave me a good medicine which helped me a lot.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"medicine",
         "location":{
@@ -4675,7 +4675,7 @@
   },
   {
     "text":"I had some roasted chicken and I really enjoyed it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"roasted chicken",
         "location":{
@@ -4701,7 +4701,7 @@
   },
   {
     "text":"I had to return it to the merchant and get my refund.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -4727,7 +4727,7 @@
   },
   {
     "text":"I had to wait longer",
-    "target_mentions":[
+    "targets":[
       {
         "text":"wait",
         "location":{
@@ -4753,7 +4753,7 @@
   },
   {
     "text":"I hate this institution, the employees are rude, they do not have empathy for their clients and when you ask for a refund the procedures are very slow and tedious.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"institution",
         "location":{
@@ -4821,7 +4821,7 @@
   },
   {
     "text":"I have bought a beautiful computer and it really surprises me, it is incredible since I have been able to do many things with it",
-    "target_mentions":[
+    "targets":[
       {
         "text":"computer",
         "location":{
@@ -4847,7 +4847,7 @@
   },
   {
     "text":"I have bought a mobile phone and it has been very good for me, I love it because it works for many things",
-    "target_mentions":[
+    "targets":[
       {
         "text":"mobile phone",
         "location":{
@@ -4873,7 +4873,7 @@
   },
   {
     "text":"I have really changed to the better after I visited the Cosmetic Dentist mt teeth now are equal and very white.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"teeth",
         "location":{
@@ -4941,7 +4941,7 @@
   },
   {
     "text":"I have spent a lot of time looking for fresh organic honey but it was very expensive, so i kept searching and found an online store who sells honey so i tried to give it a try.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"fresh organic honey",
         "location":{
@@ -4967,7 +4967,7 @@
   },
   {
     "text":"I have this phone that I bought three days ago but it does not want to work as I expected",
-    "target_mentions":[
+    "targets":[
       {
         "text":"phone",
         "location":{
@@ -4993,7 +4993,7 @@
   },
   {
     "text":"I have to admit that I am so happy to dealing with this store .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"dealing with this store",
         "location":{
@@ -5019,7 +5019,7 @@
   },
   {
     "text":"I have to admit that I chose correctly  the best tv .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"tv",
         "location":{
@@ -5045,7 +5045,7 @@
   },
   {
     "text":"I have to admit that I have never eat delicious  cup cakes like that .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"cup cakes",
         "location":{
@@ -5071,7 +5071,7 @@
   },
   {
     "text":"I have to admit that I have never eat pan cakes like that .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"pan cakes",
         "location":{
@@ -5097,7 +5097,7 @@
   },
   {
     "text":"I have to say that i spent a nice time there.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"time",
         "location":{
@@ -5144,7 +5144,7 @@
   },
   {
     "text":"I highly recommend it for people who like thin fonts.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -5170,7 +5170,7 @@
   },
   {
     "text":"I hired an elictricist to change a breker, the man generated a short circuit and damaged the breker",
-    "target_mentions":[
+    "targets":[
       {
         "text":"the man",
         "location":{
@@ -5217,7 +5217,7 @@
   },
   {
     "text":"I hired the Flooring service and it was excellent I do not have to complain very kind and trained people the result was great",
-    "target_mentions":[
+    "targets":[
       {
         "text":"people",
         "location":{
@@ -5285,7 +5285,7 @@
   },
   {
     "text":"I insisted on gating our house to protect it so i called a specialist and he built a powerful gate.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"specialist",
         "location":{
@@ -5332,7 +5332,7 @@
   },
   {
     "text":"I intended to build fences to protect my home from robbers  and the service was good.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -5358,7 +5358,7 @@
   },
   {
     "text":"I just find the sound of the external speaker low.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"sound of the external speaker",
         "location":{
@@ -5384,7 +5384,7 @@
   },
   {
     "text":"I like going shopping a lot apart from buying things that I like I enjoy going out with my friends",
-    "target_mentions":[
+    "targets":[
       {
         "text":"going out with my friends",
         "location":{
@@ -5431,7 +5431,7 @@
   },
   {
     "text":"I like when my phone save every coversationthat id have.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"my phone",
         "location":{
@@ -5457,7 +5457,7 @@
   },
   {
     "text":"I liked that it had a toilet and it was very clean.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"toilet",
         "location":{
@@ -5525,7 +5525,7 @@
   },
   {
     "text":"I liked that it had free wifi and I was able to use it while I was waiting.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"wifi",
         "location":{
@@ -5551,7 +5551,7 @@
   },
   {
     "text":"I liked the food.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -5577,7 +5577,7 @@
   },
   {
     "text":"I lost the keys to my vehicle and I called the insurance to send a tow truck, I was very well attended and the response was very fast, really, very grateful",
-    "target_mentions":[
+    "targets":[
       {
         "text":"attended",
         "location":{
@@ -5645,7 +5645,7 @@
   },
   {
     "text":"I love the pizzas in this place, I would like them to have more variety in the wine list",
-    "target_mentions":[
+    "targets":[
       {
         "text":"pizzas",
         "location":{
@@ -5692,7 +5692,7 @@
   },
   {
     "text":"I love the quality of the images and the internet connection was simply easy and very fast.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"internet connection",
         "location":{
@@ -5739,7 +5739,7 @@
   },
   {
     "text":"I love to go for my pistachio gelato it is the favorite flavor I like to combine it with hazelnuts I love it",
-    "target_mentions":[
+    "targets":[
       {
         "text":"pistachio gelato",
         "location":{
@@ -5807,7 +5807,7 @@
   },
   {
     "text":"I loved the service of the flight attendants, very attentive, polite and helpful.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service of the flight attendants",
         "location":{
@@ -5833,7 +5833,7 @@
   },
   {
     "text":"I made a reservation to stay two nights and there was no availability but they were very friendly",
-    "target_mentions":[
+    "targets":[
       {
         "text":"they",
         "location":{
@@ -5859,7 +5859,7 @@
   },
   {
     "text":"I must say that it has been the best cleaning service I have hired, the workers are very professional, top quality products and a very friendly treatment",
-    "target_mentions":[
+    "targets":[
       {
         "text":"quality products",
         "location":{
@@ -5948,7 +5948,7 @@
   },
   {
     "text":"I ordered  a couple of T-shirts online and they are delivered after only one day .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"T-shirts",
         "location":{
@@ -5974,7 +5974,7 @@
   },
   {
     "text":"I ordered some red sunglasses and they sent me some green",
-    "target_mentions":[
+    "targets":[
       {
         "text":"they",
         "location":{
@@ -6000,7 +6000,7 @@
   },
   {
     "text":"I purchased some brief boxers online and they were comfortable",
-    "target_mentions":[
+    "targets":[
       {
         "text":"brief boxers",
         "location":{
@@ -6026,7 +6026,7 @@
   },
   {
     "text":"I rate it with 10 stars, the attention is top quality, the attention of the cashiers is wonderful",
-    "target_mentions":[
+    "targets":[
       {
         "text":"attention",
         "location":{
@@ -6073,7 +6073,7 @@
   },
   {
     "text":"I really like sex shops, but it is a taboo theme, Id feel awkard everytime i left the shop, they see me like a pervert.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"theme",
         "location":{
@@ -6120,7 +6120,7 @@
   },
   {
     "text":"I really like that my subscription allows me to use the service on different platforms.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"subscription allows me to use the service on different platforms",
         "location":{
@@ -6146,7 +6146,7 @@
   },
   {
     "text":"I really like your paintings.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"paintings",
         "location":{
@@ -6172,7 +6172,7 @@
   },
   {
     "text":"I really recommend to people to do this kind of change on their homes and believe a little bit more in this some kind of positive energy so call it feng shui.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"this kind of change on their homes",
         "location":{
@@ -6240,7 +6240,7 @@
   },
   {
     "text":"I recently bought a dell brand laptop, I found it cheap and it is very good.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"cheap",
         "location":{
@@ -6287,7 +6287,7 @@
   },
   {
     "text":"I recommend it as one of your best purchases.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"purchases",
         "location":{
@@ -6313,7 +6313,7 @@
   },
   {
     "text":"I recommend it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -6339,7 +6339,7 @@
   },
   {
     "text":"I recommend that you never buy this book.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"this book",
         "location":{
@@ -6365,7 +6365,7 @@
   },
   {
     "text":"I recommend to people the like this stuff to go there and see and buy some great books anyone will thank me.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"books",
         "location":{
@@ -6391,7 +6391,7 @@
   },
   {
     "text":"I recommend you buy from this brand.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"brand",
         "location":{
@@ -6417,7 +6417,7 @@
   },
   {
     "text":"I recommend you buy here.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"buy here",
         "location":{
@@ -6443,7 +6443,7 @@
   },
   {
     "text":"I regret going.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"going",
         "location":{
@@ -6469,7 +6469,7 @@
   },
   {
     "text":"I searched a lot until i find this excellent clinic .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"clinic",
         "location":{
@@ -6495,7 +6495,7 @@
   },
   {
     "text":"I sincerely congratulate you for the excellent service.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -6521,7 +6521,7 @@
   },
   {
     "text":"I stayed at this hotel for its excellent location and ocean view, I liked the attention and good service.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"hotel",
         "location":{
@@ -6631,7 +6631,7 @@
   },
   {
     "text":"I visited the optometrist and he gave me good refreshing eye drops that helped me and the pain's gone.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"optometrist",
         "location":{
@@ -6678,7 +6678,7 @@
   },
   {
     "text":"I visited the restaurant and ordered cheese burger and it was very delicious.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"cheese burger",
         "location":{
@@ -6704,7 +6704,7 @@
   },
   {
     "text":"I visited the sex therapist and he gave me some advises and medications to help me.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"sex therapist",
         "location":{
@@ -6751,7 +6751,7 @@
   },
   {
     "text":"I waited  for a long  time for my order and the service was so slow  and bad .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -6798,7 +6798,7 @@
   },
   {
     "text":"I waited too long till he arrive .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"waited",
         "location":{
@@ -6824,7 +6824,7 @@
   },
   {
     "text":"I wanted to withdraw my money and they put a lot of excuses on me, I don't recommend it at all.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -6850,7 +6850,7 @@
   },
   {
     "text":"I was offered AT&T service in my flat, with a TV package plus Internet included and a free month, everything turned out badly, they charged me for the free month, and the Internet is not continuous, it crashes, I am not satisfied with this service.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"this service",
         "location":{
@@ -6939,7 +6939,7 @@
   },
   {
     "text":"I was really disappointed in myself for many years and fell into depression.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"myself",
         "location":{
@@ -6965,7 +6965,7 @@
   },
   {
     "text":"I was really impressed by their hygiene standards in the face of the pandemic.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"hygiene standards",
         "location":{
@@ -6991,7 +6991,7 @@
   },
   {
     "text":"I was recently going to a financial advisor, in order to have better management of my financial capital, because I had many debts and despite having a good income, the money does not tend to last me.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"income",
         "location":{
@@ -7038,7 +7038,7 @@
   },
   {
     "text":"I was recently traveling, I stayed in a very elegant hotel, excellent services, I recommend this accommodation",
-    "target_mentions":[
+    "targets":[
       {
         "text":"accommodation",
         "location":{
@@ -7106,7 +7106,7 @@
   },
   {
     "text":"I was suffering from my tooth ... but Doctor was very clever and was able to treat the tooth infection .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"Doctor",
         "location":{
@@ -7153,7 +7153,7 @@
   },
   {
     "text":"I was very sick last week and decided to go to the hospital but i did not find  the doctor who should examine me  .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"doctor",
         "location":{
@@ -7179,7 +7179,7 @@
   },
   {
     "text":"I wasn't used to wash my teeth so they begin to smell badly and i felt much pain.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"teeth",
         "location":{
@@ -7226,7 +7226,7 @@
   },
   {
     "text":"I went for a friend's bachelor party, the service was bad, the food was cold, the music was old fashioned.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -7294,7 +7294,7 @@
   },
   {
     "text":"I went to a beverage store, asked for a pack of beers and they took a long time to dispatch me and the cost was very high",
-    "target_mentions":[
+    "targets":[
       {
         "text":"cost",
         "location":{
@@ -7341,7 +7341,7 @@
   },
   {
     "text":"I went to an appointment at this restaurant, I liked the food and the quick attention.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"attention",
         "location":{
@@ -7388,7 +7388,7 @@
   },
   {
     "text":"I went to the Verizon Wireless operator to complain about a bill that I was charged twice, the operator kept me waiting for almost an hour, he told me that I had to wait at least a month to resolve the problem, he was also disrespectful, I would not recommend this company.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"this company",
         "location":{
@@ -7456,7 +7456,7 @@
   },
   {
     "text":"I went to the health lab for a blood test, wow I was amazed the service was fast, excellent, the customer service was wonderful, I would highly recommend to anyone.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"customer service",
         "location":{
@@ -7524,7 +7524,7 @@
   },
   {
     "text":"I went to the insurer to insure my vehicle, they gave me excellent attention and the service is cheap",
-    "target_mentions":[
+    "targets":[
       {
         "text":"attention",
         "location":{
@@ -7592,7 +7592,7 @@
   },
   {
     "text":"I went to the myth brewery, their beers are artisanal and very good, I tried one of passion fruit that I loved, I hope to return soon",
-    "target_mentions":[
+    "targets":[
       {
         "text":"beers",
         "location":{
@@ -7660,7 +7660,7 @@
   },
   {
     "text":"I went to the restaurant to eat some delicious donuts, I was amazed, the best donuts in the world, I recommend 100% because the flavor is perfect",
-    "target_mentions":[
+    "targets":[
       {
         "text":"donuts",
         "location":{
@@ -7749,7 +7749,7 @@
   },
   {
     "text":"I went to this clinic to be assisted with a pain that had been torturing me for days, incredible treatment to patients by the health staff, super efficient, friendly and very caring with patients, very affordable prices.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"clinic",
         "location":{
@@ -7859,7 +7859,7 @@
   },
   {
     "text":"I went to this establishment because it was the most convenient but the treatment they gave me was terrible, my car was not clean and with an unpleasant smell, I do not recommend this place to anyone!",
-    "target_mentions":[
+    "targets":[
       {
         "text":"smell",
         "location":{
@@ -7948,7 +7948,7 @@
   },
   {
     "text":"I went with my friends to the cinema to see a new film, they said it was good, I regret having gone, the film had no suspense, no horror, I wouldn't recommend it to anyone.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"film",
         "location":{
@@ -7974,7 +7974,7 @@
   },
   {
     "text":"I will definitely be visiting this place again.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"place",
         "location":{
@@ -8000,7 +8000,7 @@
   },
   {
     "text":"I will recommend it to all people That I Know and don\u00b4t taste yet like me until that day.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -8026,7 +8026,7 @@
   },
   {
     "text":"I wish to have a new phone, but my old phone its still good, but when I SEE NEW PHONES, there\u00b4s not enought to change mine, because they have things that another one doesn{t have.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"NEW PHONES",
         "location":{
@@ -8073,7 +8073,7 @@
   },
   {
     "text":"I would advise to stay well away from this product.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"product",
         "location":{
@@ -8099,7 +8099,7 @@
   },
   {
     "text":"I would highly recommend it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -8125,7 +8125,7 @@
   },
   {
     "text":"I would highly recommended it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -8151,7 +8151,7 @@
   },
   {
     "text":"I would like to see financial educations in mid and high school, thath might be very helpful",
-    "target_mentions":[
+    "targets":[
       {
         "text":"financial educations",
         "location":{
@@ -8177,7 +8177,7 @@
   },
   {
     "text":"I'm very happy.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"I",
         "location":{
@@ -8203,7 +8203,7 @@
   },
   {
     "text":"I've really enjoyed my stay.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"my stay.",
         "location":{
@@ -8229,7 +8229,7 @@
   },
   {
     "text":"If what you are looking for is a good book and also people who treat you well when selling it to you.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"people",
         "location":{
@@ -8276,7 +8276,7 @@
   },
   {
     "text":"If you are in a hurry this is a good place.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"place",
         "location":{
@@ -8302,7 +8302,7 @@
   },
   {
     "text":"If you want to feel safe without having your own vehicle, I recommend it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -8328,7 +8328,7 @@
   },
   {
     "text":"In just three months I have seen remarkable results.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"results",
         "location":{
@@ -8354,7 +8354,7 @@
   },
   {
     "text":"In spite of everything, I think it was a good purchase, considering the price I paid for it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"purchase",
         "location":{
@@ -8380,7 +8380,7 @@
   },
   {
     "text":"In terms of gameplay functionality it can seemingly play anything to a high standard.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"gameplay functionality",
         "location":{
@@ -8406,7 +8406,7 @@
   },
   {
     "text":"In the long term, investments carry fewer risks, although in the short term they carry more benefits",
-    "target_mentions":[
+    "targets":[
       {
         "text":"investments",
         "location":{
@@ -8432,7 +8432,7 @@
   },
   {
     "text":"Issues with it's delivery service and timings yet still easy to contact and sort out any problems that I have.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"to contact",
         "location":{
@@ -8458,7 +8458,7 @@
   },
   {
     "text":"It comes with great camera and 6gb ram and a powerful processor.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"processor",
         "location":{
@@ -8526,7 +8526,7 @@
   },
   {
     "text":"It does not have a good reception.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"reception",
         "location":{
@@ -8552,7 +8552,7 @@
   },
   {
     "text":"It does not recognize many of today's phones and the loading time is very long",
-    "target_mentions":[
+    "targets":[
       {
         "text":"loading time",
         "location":{
@@ -8578,7 +8578,7 @@
   },
   {
     "text":"It fulfills the objective of applying a good daily administrative method from our thinking, in knowing how to control and avoid losses and control the anxiety and at the same time gradually increase income under statistical measures of entry and exit flow.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"It",
         "location":{
@@ -8625,7 +8625,7 @@
   },
   {
     "text":"It goes straight to the point, kind, it takes you to see your life in a clearer and different perspective, it awakens you what you really need to realize in the problem.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"It",
         "location":{
@@ -8651,7 +8651,7 @@
   },
   {
     "text":"It had a beautiful shape.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"shape",
         "location":{
@@ -8677,7 +8677,7 @@
   },
   {
     "text":"It has a beautiful shape and color.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"It",
         "location":{
@@ -8724,7 +8724,7 @@
   },
   {
     "text":"It has a function that improves image quality in dark scenes.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"function",
         "location":{
@@ -8750,7 +8750,7 @@
   },
   {
     "text":"It has a good camera, if you don't have a lot of budget this is a good choice.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"camera",
         "location":{
@@ -8797,7 +8797,7 @@
   },
   {
     "text":"It has a high processing speed.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"processing speed",
         "location":{
@@ -8844,7 +8844,7 @@
   },
   {
     "text":"It has a lot of information.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"information",
         "location":{
@@ -8870,7 +8870,7 @@
   },
   {
     "text":"It has a very beautiful appearance.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"appearance",
         "location":{
@@ -8896,7 +8896,7 @@
   },
   {
     "text":"It has adjustable RGB and a lot of shortcuts to make your work easier.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"It",
         "location":{
@@ -8964,7 +8964,7 @@
   },
   {
     "text":"It has an exceptionally simple to understand and easy to use system, the Android OS is reliable and never causes me any issues.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"system",
         "location":{
@@ -9011,7 +9011,7 @@
   },
   {
     "text":"It has been the best I have bought lately, the full hard battery, and it is super fast and ultra thin",
-    "target_mentions":[
+    "targets":[
       {
         "text":"battery",
         "location":{
@@ -9058,7 +9058,7 @@
   },
   {
     "text":"It has many branches in the city which is very good and the customer service is excellent.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"customer service",
         "location":{
@@ -9105,7 +9105,7 @@
   },
   {
     "text":"It has really impressed me a lot over the previous model.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"It",
         "location":{
@@ -9131,7 +9131,7 @@
   },
   {
     "text":"It has the best color in the picture.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"best color",
         "location":{
@@ -9157,7 +9157,7 @@
   },
   {
     "text":"It has tremendous ease of access and really does a good job of housing all the resources that I need.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"ease of access",
         "location":{
@@ -9225,7 +9225,7 @@
   },
   {
     "text":"It is a genre that helps to relax and de-stress",
-    "target_mentions":[
+    "targets":[
       {
         "text":"genre",
         "location":{
@@ -9251,7 +9251,7 @@
   },
   {
     "text":"It is a very fun task between father and son that strengthens the bonds",
-    "target_mentions":[
+    "targets":[
       {
         "text":"task",
         "location":{
@@ -9277,7 +9277,7 @@
   },
   {
     "text":"It is cheap to sell.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"sell",
         "location":{
@@ -9303,7 +9303,7 @@
   },
   {
     "text":"It is difficult to find a good pediatrician  ....",
-    "target_mentions":[
+    "targets":[
       {
         "text":"to find a good pediatrician",
         "location":{
@@ -9329,7 +9329,7 @@
   },
   {
     "text":"It is expensive.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"It",
         "location":{
@@ -9355,7 +9355,7 @@
   },
   {
     "text":"It is good because it helps us take care of the coronavirus, but it is uncomfortable and repellent",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -9402,7 +9402,7 @@
   },
   {
     "text":"It is located in downtown and you can feel safe there because clinic is very clean .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"there",
         "location":{
@@ -9449,7 +9449,7 @@
   },
   {
     "text":"It is more like a boring novel than a comedy story.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"novel",
         "location":{
@@ -9496,7 +9496,7 @@
   },
   {
     "text":"It is not worth buying.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"It",
         "location":{
@@ -9522,7 +9522,7 @@
   },
   {
     "text":"It is not worth dedicating more lines to this product.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"this product",
         "location":{
@@ -9548,7 +9548,7 @@
   },
   {
     "text":"It is simply awesome.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"It",
         "location":{
@@ -9574,7 +9574,7 @@
   },
   {
     "text":"It is the largest hamburger chain in the world, but its service has declined lately, long lines, synthetic meat and always the same hamburgers, it must improve\nStars: 2",
-    "target_mentions":[
+    "targets":[
       {
         "text":"meat",
         "location":{
@@ -9663,7 +9663,7 @@
   },
   {
     "text":"It is very great.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"It",
         "location":{
@@ -9689,7 +9689,7 @@
   },
   {
     "text":"It is very incomprehensible.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"It",
         "location":{
@@ -9715,7 +9715,7 @@
   },
   {
     "text":"It loaded very quickly and the games were quick to install.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"games",
         "location":{
@@ -9762,7 +9762,7 @@
   },
   {
     "text":"It measures the pulse rate and blood pressure in a fast and very simple way.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"It",
         "location":{
@@ -9809,7 +9809,7 @@
   },
   {
     "text":"It was delicious and i would 100% recommend it to anyone who likes their curries.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"It",
         "location":{
@@ -9856,7 +9856,7 @@
   },
   {
     "text":"It was horrible!",
-    "target_mentions":[
+    "targets":[
       {
         "text":"It",
         "location":{
@@ -9882,7 +9882,7 @@
   },
   {
     "text":"It was the worse time we have ever had at Chili's.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"Chili's",
         "location":{
@@ -9929,7 +9929,7 @@
   },
   {
     "text":"It wore out very quickly.I recommend you do not buy this brand.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"brand",
         "location":{
@@ -9955,7 +9955,7 @@
   },
   {
     "text":"It's a good value for money.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"value for money",
         "location":{
@@ -9981,7 +9981,7 @@
   },
   {
     "text":"It's a service that I have come to rely on in the current pandemic climate.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -10007,7 +10007,7 @@
   },
   {
     "text":"It's just what my son needed.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"It",
         "location":{
@@ -10033,7 +10033,7 @@
   },
   {
     "text":"It's the easiest way to pay for goods from general marketplace sites but also auction ones.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"It",
         "location":{
@@ -10080,7 +10080,7 @@
   },
   {
     "text":"Its shape is fancy.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"shape",
         "location":{
@@ -10106,7 +10106,7 @@
   },
   {
     "text":"Its subject is scary.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"Its subject",
         "location":{
@@ -10132,7 +10132,7 @@
   },
   {
     "text":"Last week went to a bookstore is call it anonymous and has a great collection of mystery books that I like so much.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"bookstore",
         "location":{
@@ -10179,7 +10179,7 @@
   },
   {
     "text":"Like more ram but less internal memory.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"memory",
         "location":{
@@ -10226,7 +10226,7 @@
   },
   {
     "text":"Long waiting time.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"waiting time",
         "location":{
@@ -10252,7 +10252,7 @@
   },
   {
     "text":"Lousy service, the reservation I made 2 days before was not validated, I had to queue to buy the ticket, and I was late for my meeting.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"reservation",
         "location":{
@@ -10299,7 +10299,7 @@
   },
   {
     "text":"Love the selection and the service was awesome!",
-    "target_mentions":[
+    "targets":[
       {
         "text":"selection",
         "location":{
@@ -10346,7 +10346,7 @@
   },
   {
     "text":"My best buy",
-    "target_mentions":[
+    "targets":[
       {
         "text":"buy",
         "location":{
@@ -10372,7 +10372,7 @@
   },
   {
     "text":"My computer is one of the most advanced, it has very good features and allows me to do higher quality work",
-    "target_mentions":[
+    "targets":[
       {
         "text":"features",
         "location":{
@@ -10440,7 +10440,7 @@
   },
   {
     "text":"My computer is working perfectly, everything is fine, I navigate faster and enter each of the pages more quickly, excellent",
-    "target_mentions":[
+    "targets":[
       {
         "text":"everything",
         "location":{
@@ -10529,7 +10529,7 @@
   },
   {
     "text":"My experience was great.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"My experience",
         "location":{
@@ -10555,7 +10555,7 @@
   },
   {
     "text":"My eyes began to hurt me strongly because i usually set behind the computer for more than 12 hour a day.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"eyes",
         "location":{
@@ -10581,7 +10581,7 @@
   },
   {
     "text":"My face style has become attractive by wearing these sunglasses.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"face style",
         "location":{
@@ -10628,7 +10628,7 @@
   },
   {
     "text":"My father enjoyed them and was very happy with them.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"them",
         "location":{
@@ -10675,7 +10675,7 @@
   },
   {
     "text":"My father's  birthday was a week ago and i wanted to bring him something to eat but no cakes.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"cakes",
         "location":{
@@ -10701,7 +10701,7 @@
   },
   {
     "text":"My kids used to make disgusting thins so I visited the doctor and he gave me some advises and everything goes fine since then.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"thins",
         "location":{
@@ -10769,7 +10769,7 @@
   },
   {
     "text":"My new console arrived today via the delivery man.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"new console",
         "location":{
@@ -10795,7 +10795,7 @@
   },
   {
     "text":"My smartphone does not work as it should, when I go to enter an app it does not leave me or it gets into another that I have not selected",
-    "target_mentions":[
+    "targets":[
       {
         "text":"smartphone",
         "location":{
@@ -10842,7 +10842,7 @@
   },
   {
     "text":"Navigation through the menu is very simple and easy to use.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"Navigation through the menu",
         "location":{
@@ -10868,7 +10868,7 @@
   },
   {
     "text":"Needed to purchase some gifts and their range and easy to search website made it a breeze.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"range",
         "location":{
@@ -10915,7 +10915,7 @@
   },
   {
     "text":"Never buy such a brand.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"brand",
         "location":{
@@ -10941,7 +10941,7 @@
   },
   {
     "text":"Never had any kind of connection or reliability issues when using it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -10967,7 +10967,7 @@
   },
   {
     "text":"Nice phone that features smoothness and a nice camera except that the only drawback is the battery",
-    "target_mentions":[
+    "targets":[
       {
         "text":"features",
         "location":{
@@ -11035,7 +11035,7 @@
   },
   {
     "text":"Nice place with a good location and the food is very delicious, they have a very responsible staff.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"staff",
         "location":{
@@ -11124,7 +11124,7 @@
   },
   {
     "text":"Now he is talking a lot more because he has raised his self-esteem.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"self-esteem",
         "location":{
@@ -11150,7 +11150,7 @@
   },
   {
     "text":"One worker at the store was so friendly he even put it into my car for me.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"One worker at the store",
         "location":{
@@ -11176,7 +11176,7 @@
   },
   {
     "text":"Only the cover of the book is beautiful.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"cover of the book",
         "location":{
@@ -11202,7 +11202,7 @@
   },
   {
     "text":"Only the view was not what we had reserved.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"the view",
         "location":{
@@ -11228,7 +11228,7 @@
   },
   {
     "text":"Our decorist and designer had beautiful design ideas ad was prompt to act on any preferences I suggested.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"decorist and designer",
         "location":{
@@ -11275,7 +11275,7 @@
   },
   {
     "text":"Positive side: It is light, the screen has good definition.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"screen",
         "location":{
@@ -11322,7 +11322,7 @@
   },
   {
     "text":"Pretty good and very well made!",
-    "target_mentions":[
+    "targets":[
       {
         "text":"made",
         "location":{
@@ -11348,7 +11348,7 @@
   },
   {
     "text":"Pretty good, howeer, it smells pretty bad and the dorctors are not that good",
-    "target_mentions":[
+    "targets":[
       {
         "text":"dorctors",
         "location":{
@@ -11395,7 +11395,7 @@
   },
   {
     "text":"Probably the most secure online payment service that offers tremendous checks and balances to remain that way.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"checks and balances",
         "location":{
@@ -11442,7 +11442,7 @@
   },
   {
     "text":"Restaurant with a very good reputation, the pizzas, I could say they are the best, I recommend them 100%",
-    "target_mentions":[
+    "targets":[
       {
         "text":"reputation",
         "location":{
@@ -11510,7 +11510,7 @@
   },
   {
     "text":"She cleans everything!",
-    "target_mentions":[
+    "targets":[
       {
         "text":"She",
         "location":{
@@ -11536,7 +11536,7 @@
   },
   {
     "text":"Simple verification checks make it trusted but also easy to navigate.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -11604,7 +11604,7 @@
   },
   {
     "text":"Slow service, unresponsive.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -11630,7 +11630,7 @@
   },
   {
     "text":"So I order some macaron with cheese with spaghetti, and I was trill about it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"macaron with cheese with spaghetti",
         "location":{
@@ -11656,7 +11656,7 @@
   },
   {
     "text":"So even though the advisor doesn\u00b4t have the best customer service.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"advisor",
         "location":{
@@ -11703,7 +11703,7 @@
   },
   {
     "text":"Sometimes that back and home buttons don't seem to get you out of every app but that is a small gripe.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"back and home buttons",
         "location":{
@@ -11729,7 +11729,7 @@
   },
   {
     "text":"Spacious rooms and cleaning staff did a great job.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"rooms",
         "location":{
@@ -11797,7 +11797,7 @@
   },
   {
     "text":"Suddenly the value of its shares fell.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"value of its shares",
         "location":{
@@ -11823,7 +11823,7 @@
   },
   {
     "text":"Super fast and stable.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"fast",
         "location":{
@@ -11849,7 +11849,7 @@
   },
   {
     "text":"TV colors are natural and comfortable for eyes ... also TV provide with eye-care  feature .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"TV colors",
         "location":{
@@ -11896,7 +11896,7 @@
   },
   {
     "text":"TV streaming service with excellent series, films and documentaries.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"series, films and documentaries.",
         "location":{
@@ -11943,7 +11943,7 @@
   },
   {
     "text":"Terrible service I made my reservation 1 month in advance and had to re-register",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -11969,7 +11969,7 @@
   },
   {
     "text":"The Fiat Premio has a fairly effective level of fuel consumption, but is not usually such a good friend of long trips",
-    "target_mentions":[
+    "targets":[
       {
         "text":"long trips",
         "location":{
@@ -11995,7 +11995,7 @@
   },
   {
     "text":"The Netflix stream service has a great price per month, and good quality of movies, but the variety for shows and movie are limited.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"quality of movies",
         "location":{
@@ -12063,7 +12063,7 @@
   },
   {
     "text":"The air staff were really helpful and friendly.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"air staff",
         "location":{
@@ -12089,7 +12089,7 @@
   },
   {
     "text":"The airline was terrible, the service was very bad, plus one receptionist was rude to me.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -12157,7 +12157,7 @@
   },
   {
     "text":"The android phone is fast and has fair storage and is sold for good price",
-    "target_mentions":[
+    "targets":[
       {
         "text":"android phone",
         "location":{
@@ -12225,7 +12225,7 @@
   },
   {
     "text":"The architects are in charge of making the correct and most suitable distributions of the houses and any other structures.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"architects",
         "location":{
@@ -12251,7 +12251,7 @@
   },
   {
     "text":"The atmosphere was very nice, a place if you want to impress your friends.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"place",
         "location":{
@@ -12298,7 +12298,7 @@
   },
   {
     "text":"The baseball camp was clean and ready to use, however the tennis section is lacking, the net is broken, the bathrooms were clean, overall good facilities, i like them.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"net",
         "location":{
@@ -12387,7 +12387,7 @@
   },
   {
     "text":"The bathrooms were very clean and tidy.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"bathrooms",
         "location":{
@@ -12413,7 +12413,7 @@
   },
   {
     "text":"The battery life is great, can last up to 8 hours of full use, the software was up to date, i like the webcam resolution (8mp) and the sound is okay, not the best not the worst, the price was good, i'm in love with this product.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"product",
         "location":{
@@ -12523,7 +12523,7 @@
   },
   {
     "text":"The beach was a bit far from the hotel, we had to walk quite a bit to get there.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"beach",
         "location":{
@@ -12549,7 +12549,7 @@
   },
   {
     "text":"The beds looked like they hadn't been changed since the last guest.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"beds",
         "location":{
@@ -12575,7 +12575,7 @@
   },
   {
     "text":"The best application to listen to music in streamig: 30 million songs, many remixes, family plan and improving a lot in its podcast section.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"podcast section",
         "location":{
@@ -12622,7 +12622,7 @@
   },
   {
     "text":"The best food I have ever enjoyed in a restaurant.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -12648,7 +12648,7 @@
   },
   {
     "text":"The best food I have ever had.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -12674,7 +12674,7 @@
   },
   {
     "text":"The best insurance service has it all: houses, life, cars.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"insurance service",
         "location":{
@@ -12700,7 +12700,7 @@
   },
   {
     "text":"The best service in the world, the best customer service, the food is delicious, I recommend it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -12768,7 +12768,7 @@
   },
   {
     "text":"The bread from the sub was cold, I hated it",
-    "target_mentions":[
+    "targets":[
       {
         "text":"bread",
         "location":{
@@ -12794,7 +12794,7 @@
   },
   {
     "text":"The camera does not comply with what is offered in the technical characteristics.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"camera",
         "location":{
@@ -12820,7 +12820,7 @@
   },
   {
     "text":"The camera size is small and the color is nice.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"camera size",
         "location":{
@@ -12867,7 +12867,7 @@
   },
   {
     "text":"The car wash is going great, I've never had a complaint, always the best of care, keep up the good work.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"care",
         "location":{
@@ -12935,7 +12935,7 @@
   },
   {
     "text":"The case is beautiful and designed the way that allows the air flow into the internal parts.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"case",
         "location":{
@@ -12982,7 +12982,7 @@
   },
   {
     "text":"The case is very good looking and has a  remote control to adjust the fan lights.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"case",
         "location":{
@@ -13008,7 +13008,7 @@
   },
   {
     "text":"The case provides amazing airflow to the internal components and has a dust filter.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"airflow",
         "location":{
@@ -13055,7 +13055,7 @@
   },
   {
     "text":"The charger is powerful and all my house members use it and it fill up our batteries to 100% in less than 45 minutes.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"charger",
         "location":{
@@ -13081,7 +13081,7 @@
   },
   {
     "text":"The chicken was very rich and the the theme too, would definitely come back again",
-    "target_mentions":[
+    "targets":[
       {
         "text":"theme",
         "location":{
@@ -13128,7 +13128,7 @@
   },
   {
     "text":"The couch is comfortable but the cloth is not of good quality.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"cloth",
         "location":{
@@ -13154,7 +13154,7 @@
   },
   {
     "text":"The decor was out of date.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"decor",
         "location":{
@@ -13180,7 +13180,7 @@
   },
   {
     "text":"The dentist is a professional, he did his job perfectly, he cured the pain I had in my tooth.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"dentist",
         "location":{
@@ -13227,7 +13227,7 @@
   },
   {
     "text":"The dentists cleaned my teeth with ultrasound tool and my teeth are far better now.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"teeth",
         "location":{
@@ -13274,7 +13274,7 @@
   },
   {
     "text":"The dinner was amazing.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"dinner",
         "location":{
@@ -13300,7 +13300,7 @@
   },
   {
     "text":"The doctor was very nice and prescribed the perfect medicine for me.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"medicine",
         "location":{
@@ -13347,7 +13347,7 @@
   },
   {
     "text":"The experience was wonderful.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"experience",
         "location":{
@@ -13373,7 +13373,7 @@
   },
   {
     "text":"The fish are fresh and well cooked, but I didn't like the meat.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"cooked",
         "location":{
@@ -13441,7 +13441,7 @@
   },
   {
     "text":"The fish was raw in the hotel",
-    "target_mentions":[
+    "targets":[
       {
         "text":"fish",
         "location":{
@@ -13488,7 +13488,7 @@
   },
   {
     "text":"The food and all the dishes in general disappointed me.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"The food and all the dishes",
         "location":{
@@ -13514,7 +13514,7 @@
   },
   {
     "text":"The food and rooms of the hotel are very good, I would definitely go again.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"hotel",
         "location":{
@@ -13582,7 +13582,7 @@
   },
   {
     "text":"The food is delicious.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -13608,7 +13608,7 @@
   },
   {
     "text":"The food was acceptable.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -13634,7 +13634,7 @@
   },
   {
     "text":"The food was amazing the wopper burguers was delicius i like a lot his food",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -13702,7 +13702,7 @@
   },
   {
     "text":"The food was amazing, even the drink are pretty refresh to me, not to strong",
-    "target_mentions":[
+    "targets":[
       {
         "text":"drink",
         "location":{
@@ -13749,7 +13749,7 @@
   },
   {
     "text":"The food was delicious, the waiters were very attentive to our needs.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -13796,7 +13796,7 @@
   },
   {
     "text":"The food was great and the service was even better.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -13843,7 +13843,7 @@
   },
   {
     "text":"The food was incredible, very nice food and good prices.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -13911,7 +13911,7 @@
   },
   {
     "text":"The food was quality and the attention of the staff was unique",
-    "target_mentions":[
+    "targets":[
       {
         "text":"attention of the staff",
         "location":{
@@ -13958,7 +13958,7 @@
   },
   {
     "text":"The food was served cold and the dessert was very bad",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -14005,7 +14005,7 @@
   },
   {
     "text":"The food was tasty and filling.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -14031,7 +14031,7 @@
   },
   {
     "text":"The food was very good.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -14057,7 +14057,7 @@
   },
   {
     "text":"The food was very very good, I would definitely come back",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -14083,7 +14083,7 @@
   },
   {
     "text":"The graphics aren't as powerful as in PS5 but it's good value for money",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -14130,7 +14130,7 @@
   },
   {
     "text":"The graphics were very good.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"graphics",
         "location":{
@@ -14156,7 +14156,7 @@
   },
   {
     "text":"The hospital facilities are very beautiful, excellent equipment with very good technology, and very nice staff.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"equipment",
         "location":{
@@ -14245,7 +14245,7 @@
   },
   {
     "text":"The hospital has many departments and it's clean.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"hospital",
         "location":{
@@ -14271,7 +14271,7 @@
   },
   {
     "text":"The hospital was very unclean and the doctors were not obligated by health procedures .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"doctors",
         "location":{
@@ -14318,7 +14318,7 @@
   },
   {
     "text":"The hotel is in a very good location with a good view and good recreational areas, great food",
-    "target_mentions":[
+    "targets":[
       {
         "text":"The hotel",
         "location":{
@@ -14428,7 +14428,7 @@
   },
   {
     "text":"The hotel staff tried to help me and made an exception to accommodate my pet.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"hotel staff",
         "location":{
@@ -14454,7 +14454,7 @@
   },
   {
     "text":"The hotel staff were friendly and they gave me a room with sea view although I booked a standard one.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"hotel staff",
         "location":{
@@ -14480,7 +14480,7 @@
   },
   {
     "text":"The hotel was beautiful and beautifully decorated.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"hotel",
         "location":{
@@ -14527,7 +14527,7 @@
   },
   {
     "text":"The hotel was beautiful and big it has a very large pool and ocean view, the staff was very helpful",
-    "target_mentions":[
+    "targets":[
       {
         "text":"staff",
         "location":{
@@ -14616,7 +14616,7 @@
   },
   {
     "text":"The image quality is amazing and an excellent sound system.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"image quality",
         "location":{
@@ -14663,7 +14663,7 @@
   },
   {
     "text":"The information for people without much experience in the network regarding the stock market is almost always misleading, although it is worth noting that a couple of people provide quality knowledge",
-    "target_mentions":[
+    "targets":[
       {
         "text":"knowledge",
         "location":{
@@ -14710,7 +14710,7 @@
   },
   {
     "text":"The innkeeper was outstanding and the recommendations he gave me were very successful.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"recommendations he gave",
         "location":{
@@ -14757,7 +14757,7 @@
   },
   {
     "text":"The innkeeper was very attentive and willing to give us the best recommendations.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"innkeeper",
         "location":{
@@ -14804,7 +14804,7 @@
   },
   {
     "text":"The insurance has met all my expectations and the customer service is very helpful",
-    "target_mentions":[
+    "targets":[
       {
         "text":"customer service",
         "location":{
@@ -14851,7 +14851,7 @@
   },
   {
     "text":"The interior of the rooms was very beautiful.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"interior of the rooms",
         "location":{
@@ -14877,7 +14877,7 @@
   },
   {
     "text":"The internet connection is very bad, every time it disconnects more, terrible service, I do not recommend it",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -14924,7 +14924,7 @@
   },
   {
     "text":"The internet speed is very bad, the support staff is very rude.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"internet speed",
         "location":{
@@ -14971,7 +14971,7 @@
   },
   {
     "text":"The investor was very pushy and did not clarify my doubts in the right way.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"investor",
         "location":{
@@ -14997,7 +14997,7 @@
   },
   {
     "text":"The keyboard looks great.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"The keyboard",
         "location":{
@@ -15023,7 +15023,7 @@
   },
   {
     "text":"The laptop has a large screen, although it's not so big and can be easily carried in one hand.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"screen",
         "location":{
@@ -15070,7 +15070,7 @@
   },
   {
     "text":"The last time we went, the food was way too spicy,  the corn on the cob had way too much butter, the fries were overly salty.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"corn on the cob",
         "location":{
@@ -15138,7 +15138,7 @@
   },
   {
     "text":"The lawyers services its a magnificent thing but I dont really agree with the prices of the service.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"prices of the service",
         "location":{
@@ -15164,7 +15164,7 @@
   },
   {
     "text":"The library is very run down, has many leaks, and does not have air conditioning",
-    "target_mentions":[
+    "targets":[
       {
         "text":"air conditioning",
         "location":{
@@ -15232,7 +15232,7 @@
   },
   {
     "text":"The market has a wide variety of products with an affordable price, and good service.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"variety of products",
         "location":{
@@ -15321,7 +15321,7 @@
   },
   {
     "text":"The material is comfortable because it's made of cotton.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"cotton",
         "location":{
@@ -15368,7 +15368,7 @@
   },
   {
     "text":"The meat was very good but I ordered brownie for dessert and it was a little dry",
-    "target_mentions":[
+    "targets":[
       {
         "text":"brownie",
         "location":{
@@ -15415,7 +15415,7 @@
   },
   {
     "text":"The medical service was very good, the staff is very professional",
-    "target_mentions":[
+    "targets":[
       {
         "text":"medical service",
         "location":{
@@ -15462,7 +15462,7 @@
   },
   {
     "text":"The mobile has clear sound when it's ringing and I really loved it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"sound",
         "location":{
@@ -15509,7 +15509,7 @@
   },
   {
     "text":"The monitor is a great value for money.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"value",
         "location":{
@@ -15556,7 +15556,7 @@
   },
   {
     "text":"The most reliable and well priced grocery service I have used in the past few months.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"priced",
         "location":{
@@ -15603,7 +15603,7 @@
   },
   {
     "text":"The mouse is great and has many DPI options.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"mouse",
         "location":{
@@ -15629,7 +15629,7 @@
   },
   {
     "text":"The navigation was very fast.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"navigation",
         "location":{
@@ -15655,7 +15655,7 @@
   },
   {
     "text":"The noise cancellation works really well, i like to  use them when jogging, the quality sound is not the best but gets the job done, the price was okay, i would recommend it for those with low budget.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"noise cancellation",
         "location":{
@@ -15702,7 +15702,7 @@
   },
   {
     "text":"The nurses and doctors treat patients gently.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"nurses and doctors",
         "location":{
@@ -15728,7 +15728,7 @@
   },
   {
     "text":"The only bad thing that it hasn't RGB.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -15775,7 +15775,7 @@
   },
   {
     "text":"The only contradictory thing about this is the degree of pollution they generate to the environment by the carbon dioxide emanating from their engines",
-    "target_mentions":[
+    "targets":[
       {
         "text":"engines",
         "location":{
@@ -15801,7 +15801,7 @@
   },
   {
     "text":"The parking lot was far from our room and the bathroom in the room did not work well.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"parking lot",
         "location":{
@@ -15848,7 +15848,7 @@
   },
   {
     "text":"The phone is a good value for money.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"money",
         "location":{
@@ -15916,7 +15916,7 @@
   },
   {
     "text":"The phone is perfect, incredible wifi connectivity, memory and battery life, perfect",
-    "target_mentions":[
+    "targets":[
       {
         "text":"memory and battery life",
         "location":{
@@ -15984,7 +15984,7 @@
   },
   {
     "text":"The phone was presented to reduce distances and save time, this useful tool connects us to any part of the world at any time, thus being an indispensable tool today",
-    "target_mentions":[
+    "targets":[
       {
         "text":"phone",
         "location":{
@@ -16052,7 +16052,7 @@
   },
   {
     "text":"The phone worked great the first 2 week, then it started glitching out, update after update and the battery life was not as advertised, the only positive side is that it charges really quickly, 1 star.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it charges",
         "location":{
@@ -16099,7 +16099,7 @@
   },
   {
     "text":"The pizza was cold and the ingredients didn't taste good",
-    "target_mentions":[
+    "targets":[
       {
         "text":"pizza",
         "location":{
@@ -16167,7 +16167,7 @@
   },
   {
     "text":"The pizza was good but I asked for one to take away and they forgot it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"they",
         "location":{
@@ -16193,7 +16193,7 @@
   },
   {
     "text":"The pizzas are wonderful, they transport you to Naples itself",
-    "target_mentions":[
+    "targets":[
       {
         "text":"pizzas",
         "location":{
@@ -16219,7 +16219,7 @@
   },
   {
     "text":"The place is big and the staff is well prepared, leave my car in the morning and within a few hours I was ready.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"place",
         "location":{
@@ -16266,7 +16266,7 @@
   },
   {
     "text":"The place was very dirty, the food was ok but I did not like the service.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"The place",
         "location":{
@@ -16313,7 +16313,7 @@
   },
   {
     "text":"The place was very nice, but the staff was not very friendly.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"place",
         "location":{
@@ -16360,7 +16360,7 @@
   },
   {
     "text":"The place was well decorated but the people who worked at the hotel do not have good presentation.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"place",
         "location":{
@@ -16428,7 +16428,7 @@
   },
   {
     "text":"The prices of this airline are very affordable.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"prices",
         "location":{
@@ -16454,7 +16454,7 @@
   },
   {
     "text":"The product is what I expected but it takes a long time to ship",
-    "target_mentions":[
+    "targets":[
       {
         "text":"time to ship",
         "location":{
@@ -16480,7 +16480,7 @@
   },
   {
     "text":"The quality of its camera is low.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"quality of its camera",
         "location":{
@@ -16506,7 +16506,7 @@
   },
   {
     "text":"The quality of its food is excellent.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"quality of its food",
         "location":{
@@ -16532,7 +16532,7 @@
   },
   {
     "text":"The reception and rooms were very nice, I really liked them",
-    "target_mentions":[
+    "targets":[
       {
         "text":"The reception and rooms",
         "location":{
@@ -16558,7 +16558,7 @@
   },
   {
     "text":"The restaurant is in a good area, the attention is excellent and its food",
-    "target_mentions":[
+    "targets":[
       {
         "text":"area",
         "location":{
@@ -16647,7 +16647,7 @@
   },
   {
     "text":"The restaurant provides delicious food and the staff are very friendly.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"restaurant",
         "location":{
@@ -16715,7 +16715,7 @@
   },
   {
     "text":"The room service was excellent.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"The room service",
         "location":{
@@ -16741,7 +16741,7 @@
   },
   {
     "text":"The room was dirty, there was a leak in the bathroom sink.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"bathroom sink",
         "location":{
@@ -16788,7 +16788,7 @@
   },
   {
     "text":"The rooms are small.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"rooms",
         "location":{
@@ -16814,7 +16814,7 @@
   },
   {
     "text":"The rooms are very expensive.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"rooms",
         "location":{
@@ -16840,7 +16840,7 @@
   },
   {
     "text":"The rooms were spotless, quite spacious and the bathroom was in excellent condition.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"bathroom",
         "location":{
@@ -16887,7 +16887,7 @@
   },
   {
     "text":"The rooms were very clean.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"rooms",
         "location":{
@@ -16913,7 +16913,7 @@
   },
   {
     "text":"The rooms were very comfortable and clean.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"The rooms",
         "location":{
@@ -16939,7 +16939,7 @@
   },
   {
     "text":"The screen was incredible with a very good size.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"with",
         "location":{
@@ -17007,7 +17007,7 @@
   },
   {
     "text":"The service was excellent, the check-in easy and fast, the rooms clean and pleasant aroma, I have no complaints about my stay here.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"check-in",
         "location":{
@@ -17117,7 +17117,7 @@
   },
   {
     "text":"The service was good, but the coffee horrible, it was cold and a little bitter.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -17164,7 +17164,7 @@
   },
   {
     "text":"The services was great, the staff really friendly.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"services",
         "location":{
@@ -17211,7 +17211,7 @@
   },
   {
     "text":"The setup I hired met my expectations.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"setup",
         "location":{
@@ -17237,7 +17237,7 @@
   },
   {
     "text":"The staff is very kind.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"staff",
         "location":{
@@ -17263,7 +17263,7 @@
   },
   {
     "text":"The staff is very respectful.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"staff",
         "location":{
@@ -17289,7 +17289,7 @@
   },
   {
     "text":"The staff was rude and the food was unsused, a total disgust of place",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -17378,7 +17378,7 @@
   },
   {
     "text":"The staff was very friendly and attentive.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"staff",
         "location":{
@@ -17404,7 +17404,7 @@
   },
   {
     "text":"The staff was very kind.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"staff",
         "location":{
@@ -17430,7 +17430,7 @@
   },
   {
     "text":"The stay in general was good.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"stay",
         "location":{
@@ -17456,7 +17456,7 @@
   },
   {
     "text":"The study center is totally untidy, the facilities are disgusting, and you don't have any information when you go to investigate.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"the facilities",
         "location":{
@@ -17524,7 +17524,7 @@
   },
   {
     "text":"The swimming pool and sauna are amazing.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"swimming pool and sauna",
         "location":{
@@ -17550,7 +17550,7 @@
   },
   {
     "text":"The view is beautiful.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"view",
         "location":{
@@ -17576,7 +17576,7 @@
   },
   {
     "text":"The view is magnificent, and it has a good service to the room.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service to the room",
         "location":{
@@ -17623,7 +17623,7 @@
   },
   {
     "text":"The view of the hotel is beautiful the people who work there are very friendly I loved the service",
-    "target_mentions":[
+    "targets":[
       {
         "text":"people who work there",
         "location":{
@@ -17691,7 +17691,7 @@
   },
   {
     "text":"The view towards the mountains was beautiful.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"view towards the mountains",
         "location":{
@@ -17717,7 +17717,7 @@
   },
   {
     "text":"The waiters' service was very poor, the room temperature was very high, it was a complete disappointment.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"room temperature",
         "location":{
@@ -17785,7 +17785,7 @@
   },
   {
     "text":"The waitress was great but the food was ice cold.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -17832,7 +17832,7 @@
   },
   {
     "text":"The waitress was the worse I've ever had in my life and the food was not great but it was good.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"waitress",
         "location":{
@@ -17858,7 +17858,7 @@
   },
   {
     "text":"The workshop staff clarified all my doubts and left the car in perfect condition.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"car",
         "location":{
@@ -17926,7 +17926,7 @@
   },
   {
     "text":"Their delivery service has been the most reliable out of all the other stores I have used.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"delivery service",
         "location":{
@@ -17952,7 +17952,7 @@
   },
   {
     "text":"Their delivery service is excellent and overall their site is just easily accessible.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"accessible",
         "location":{
@@ -18020,7 +18020,7 @@
   },
   {
     "text":"Their product suggestions really made the entire experience much simpler.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"Their product suggestions",
         "location":{
@@ -18046,7 +18046,7 @@
   },
   {
     "text":"There was a strange smell in my room, not pleasant.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"room",
         "location":{
@@ -18093,7 +18093,7 @@
   },
   {
     "text":"There was no taxi service and we had to walk to the nearest taxi station.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"taxi service",
         "location":{
@@ -18119,7 +18119,7 @@
   },
   {
     "text":"These empanadas are the worst I have ever eaten, they were cold and also the very expensive price for such bad food, I would not recommend them",
-    "target_mentions":[
+    "targets":[
       {
         "text":"empanadas",
         "location":{
@@ -18187,7 +18187,7 @@
   },
   {
     "text":"They are really helpful.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"They",
         "location":{
@@ -18213,7 +18213,7 @@
   },
   {
     "text":"They didn't have hot water and the food was bad, I was queering and I didn't get a good answer",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -18281,7 +18281,7 @@
   },
   {
     "text":"They even have a home treatment service.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"home treatment service",
         "location":{
@@ -18307,7 +18307,7 @@
   },
   {
     "text":"They have a good number of quality hair products, I love",
-    "target_mentions":[
+    "targets":[
       {
         "text":"number of quality hair products",
         "location":{
@@ -18333,7 +18333,7 @@
   },
   {
     "text":"They have a lot of resposed for your car.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"resposed",
         "location":{
@@ -18380,7 +18380,7 @@
   },
   {
     "text":"They have a pleasant space and good service with highly pure and quality products in der",
-    "target_mentions":[
+    "targets":[
       {
         "text":"space",
         "location":{
@@ -18448,7 +18448,7 @@
   },
   {
     "text":"They have good food and excellent drinks.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -18495,7 +18495,7 @@
   },
   {
     "text":"They have good high-resolution video game products and very good brand components, Excellent for video game lovers.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"They",
         "location":{
@@ -18563,7 +18563,7 @@
   },
   {
     "text":"They have high quality and a reasonable price.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"They",
         "location":{
@@ -18631,7 +18631,7 @@
   },
   {
     "text":"They have very weak support.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"support",
         "location":{
@@ -18678,7 +18678,7 @@
   },
   {
     "text":"They really protected my eyes and do their job well.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"job",
         "location":{
@@ -18725,7 +18725,7 @@
   },
   {
     "text":"They told me that breakfast was included and in the end I had to pay for it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"breakfast",
         "location":{
@@ -18751,7 +18751,7 @@
   },
   {
     "text":"They understood the concept of what I wanted very well, they did a very good job and they adapted to the stipulated time",
-    "target_mentions":[
+    "targets":[
       {
         "text":"they",
         "location":{
@@ -18819,7 +18819,7 @@
   },
   {
     "text":"This blood pressure monitor has been a blessing for me.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"blood pressure monitor",
         "location":{
@@ -18845,7 +18845,7 @@
   },
   {
     "text":"This brand is crap.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"brand",
         "location":{
@@ -18871,7 +18871,7 @@
   },
   {
     "text":"This car is really fast, over 200 horse power,  i like the art style, well design, so far my only issue is that it takes quite a bit to recharge, other than that no problems, i like that it not harmful to the planet",
-    "target_mentions":[
+    "targets":[
       {
         "text":"art style",
         "location":{
@@ -18960,7 +18960,7 @@
   },
   {
     "text":"This is the right place.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"place",
         "location":{
@@ -18986,7 +18986,7 @@
   },
   {
     "text":"This model was recommended to me and I can't complain, the games are smooth, the sound is spectacular and the camera modes are great and fun.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"This model",
         "location":{
@@ -19075,7 +19075,7 @@
   },
   {
     "text":"This morning I went to this restaurant and I really liked the attention, they have a very good amount of p\u00f1atos, and drinks too, not so many desserts, but what I did not like was that I think they took a long time to take my order ...",
-    "target_mentions":[
+    "targets":[
       {
         "text":"drinks",
         "location":{
@@ -19185,7 +19185,7 @@
   },
   {
     "text":"This smart tv is definitely amazing.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"smart tv",
         "location":{
@@ -19211,7 +19211,7 @@
   },
   {
     "text":"Today I went to eat in a restaurant in the city center, everything was very tasty, the service more or less, the place was not very organized but I had a pleasant time.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"everything",
         "location":{
@@ -19279,7 +19279,7 @@
   },
   {
     "text":"Took a little longer than I am used to but the food was exceptionally high quality.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -19305,7 +19305,7 @@
   },
   {
     "text":"Vehicles in very good condition.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"Vehicles",
         "location":{
@@ -19331,7 +19331,7 @@
   },
   {
     "text":"Very good prices",
-    "target_mentions":[
+    "targets":[
       {
         "text":"prices",
         "location":{
@@ -19357,7 +19357,7 @@
   },
   {
     "text":"Very good service, qualified staff and also the place is nice.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"staff",
         "location":{
@@ -19425,7 +19425,7 @@
   },
   {
     "text":"Very good service, the waiters very attentive and the food is made super fast and very tasty",
-    "target_mentions":[
+    "targets":[
       {
         "text":"waiters",
         "location":{
@@ -19493,7 +19493,7 @@
   },
   {
     "text":"Very spacious site.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"site",
         "location":{
@@ -19519,7 +19519,7 @@
   },
   {
     "text":"Very tasty!",
-    "target_mentions":[
+    "targets":[
       {
         "text":"tasty",
         "location":{
@@ -19545,7 +19545,7 @@
   },
   {
     "text":"Waited an hour for seating and food was awful.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -19613,7 +19613,7 @@
   },
   {
     "text":"We asked for an ocean view and they didn't give it to us.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"they",
         "location":{
@@ -19660,7 +19660,7 @@
   },
   {
     "text":"We found a fly on the plate.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"the plate",
         "location":{
@@ -19686,7 +19686,7 @@
   },
   {
     "text":"We had asked for a room with a sea view, they gave us a view but on the opposite side.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"view",
         "location":{
@@ -19712,7 +19712,7 @@
   },
   {
     "text":"We had to wait for the cleaning staff to do the job.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"cleaning staff",
         "location":{
@@ -19738,7 +19738,7 @@
   },
   {
     "text":"We noticed that the waitress was bringing other people their food first that came in way after we did.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"waitress",
         "location":{
@@ -19764,7 +19764,7 @@
   },
   {
     "text":"We ordered the vindaloo option and i was blown away by the quality of food.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"quality of food",
         "location":{
@@ -19811,7 +19811,7 @@
   },
   {
     "text":"We see that this is one of the best hotels in the country where it offers a variety of meals and meals.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"this",
         "location":{
@@ -19879,7 +19879,7 @@
   },
   {
     "text":"We stopped at air stations twice so we can have some fresh air and comfor.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"air stations",
         "location":{
@@ -19905,7 +19905,7 @@
   },
   {
     "text":"We were seated in the restaurant before everyone else and the waitress kept looking over at us but was waiting on everyone else first.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"waitress",
         "location":{
@@ -19931,7 +19931,7 @@
   },
   {
     "text":"We were served faster than I have ever been served.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"served",
         "location":{
@@ -19957,7 +19957,7 @@
   },
   {
     "text":"What a bad home service it takes mushisimo to arrive and when it arrives it is not what you expect",
-    "target_mentions":[
+    "targets":[
       {
         "text":"home service",
         "location":{
@@ -19983,7 +19983,7 @@
   },
   {
     "text":"What a good computer, you have very good features apart from being portable and easy to handle",
-    "target_mentions":[
+    "targets":[
       {
         "text":"features",
         "location":{
@@ -20030,7 +20030,7 @@
   },
   {
     "text":"What a spectacular car, seats with very good lining, excellent tires, I have never seen a car like this",
-    "target_mentions":[
+    "targets":[
       {
         "text":"lining",
         "location":{
@@ -20140,7 +20140,7 @@
   },
   {
     "text":"What a terrible service, the nurses are not friendly and the doctor is never on time, how ineffective",
-    "target_mentions":[
+    "targets":[
       {
         "text":"nurses",
         "location":{
@@ -20208,7 +20208,7 @@
   },
   {
     "text":"What an ugly coffee machine, and it has a bad smell that sticks to coffee",
-    "target_mentions":[
+    "targets":[
       {
         "text":"smell",
         "location":{
@@ -20276,7 +20276,7 @@
   },
   {
     "text":"When I bought this controller I make 905 wins in fifa and football games.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"controller",
         "location":{
@@ -20302,7 +20302,7 @@
   },
   {
     "text":"When we arrived there were problems with our reservation, but the staff resolved the problem quickly.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"staff",
         "location":{
@@ -20349,7 +20349,7 @@
   },
   {
     "text":"When we arrived they didn't have our room ready for us.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"room",
         "location":{
@@ -20396,7 +20396,7 @@
   },
   {
     "text":"Whenever I call to make an appointment, the receptionists are always very polite and schedule apointments during the time of day when I would like them.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"receptionists",
         "location":{
@@ -20422,7 +20422,7 @@
   },
   {
     "text":"Which for me was perfect and that\u00b4s why I recommend it as a professional.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -20448,7 +20448,7 @@
   },
   {
     "text":"Wish it was easier to change the volume.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"change the volume",
         "location":{
@@ -20474,7 +20474,7 @@
   },
   {
     "text":"With a very nice cleaning in the bathrooms.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"cleaning in the bathrooms",
         "location":{
@@ -20500,7 +20500,7 @@
   },
   {
     "text":"Worse wervice ever had in my life.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"wervice",
         "location":{
@@ -20526,7 +20526,7 @@
   },
   {
     "text":"Yogurt and butter are always fresh.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"Yogurt and butter",
         "location":{
@@ -20552,7 +20552,7 @@
   },
   {
     "text":"You can open my bank account with them very easily and the services they offer are very good",
-    "target_mentions":[
+    "targets":[
       {
         "text":"services",
         "location":{
@@ -20620,7 +20620,7 @@
   },
   {
     "text":"You could hear the noise from the next room.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"room",
         "location":{
@@ -20646,7 +20646,7 @@
   },
   {
     "text":"You get a large variety of songs on the platform and the service is very easy to use.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -20693,7 +20693,7 @@
   },
   {
     "text":"You request a credit and the law firm does not approve the request\n.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"law",
         "location":{
@@ -20719,7 +20719,7 @@
   },
   {
     "text":"a good fast and in-depth service I am very satisfied and I recommend them",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -20766,7 +20766,7 @@
   },
   {
     "text":"a month ago I went to a psychologist to treat my depression after ending a relationship, he was excellent at applying an emotional regressive method.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"applying an emotional regressive method",
         "location":{
@@ -20834,7 +20834,7 @@
   },
   {
     "text":"a very tasty creation of Italian origin, some make it round and others square",
-    "target_mentions":[
+    "targets":[
       {
         "text":"creation of Italian origin",
         "location":{
@@ -20860,7 +20860,7 @@
   },
   {
     "text":"accommodation price was so fair .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"accommodation price",
         "location":{
@@ -20886,7 +20886,7 @@
   },
   {
     "text":"after ordering it took more than 25 minutes, good food but terrible service",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -20954,7 +20954,7 @@
   },
   {
     "text":"an excellent service for people with fewer resources, paid with the taxes of all fighters",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service for people with fewer resources",
         "location":{
@@ -20980,7 +20980,7 @@
   },
   {
     "text":"at first i thought the prices would cost me too much but i found out that the prices are great  .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"prices",
         "location":{
@@ -21006,7 +21006,7 @@
   },
   {
     "text":"but knowing how to use the capital granted as credit, these associations are very beneficial",
-    "target_mentions":[
+    "targets":[
       {
         "text":"these associations",
         "location":{
@@ -21032,7 +21032,7 @@
   },
   {
     "text":"but the service doesn't help",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -21058,7 +21058,7 @@
   },
   {
     "text":"but unlike the capacitive of battery",
-    "target_mentions":[
+    "targets":[
       {
         "text":"battery",
         "location":{
@@ -21084,7 +21084,7 @@
   },
   {
     "text":"classical music is something relaxing that helps to de-stress the individual, I have had a very good experience with music of this type",
-    "target_mentions":[
+    "targets":[
       {
         "text":"classical music",
         "location":{
@@ -21152,7 +21152,7 @@
   },
   {
     "text":"electricians are essential in a contuction since they make the distribution of the electrical lines in a more efficient way and in order to avoid subsequent risks, the only bad thing about this service is the amount of money they charge",
-    "target_mentions":[
+    "targets":[
       {
         "text":"electricians",
         "location":{
@@ -21220,7 +21220,7 @@
   },
   {
     "text":"excellent car, works great, super easy to drive, I recommend it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"works",
         "location":{
@@ -21309,7 +21309,7 @@
   },
   {
     "text":"excellent food, fresh and top quality ingredients, with an unbeatable taste",
-    "target_mentions":[
+    "targets":[
       {
         "text":"taste",
         "location":{
@@ -21377,7 +21377,7 @@
   },
   {
     "text":"excellent investment service, I get my money back in a few days, and I will get very good profits",
-    "target_mentions":[
+    "targets":[
       {
         "text":"investment service",
         "location":{
@@ -21424,7 +21424,7 @@
   },
   {
     "text":"excellent products and great variety I found what I was looking for",
-    "target_mentions":[
+    "targets":[
       {
         "text":"products",
         "location":{
@@ -21471,7 +21471,7 @@
   },
   {
     "text":"excellent service and good prices, they have a quality of very good brand products.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -21539,7 +21539,7 @@
   },
   {
     "text":"excellent smartphone, 5000 battery lasts up to two days, excellent camera despite the cost",
-    "target_mentions":[
+    "targets":[
       {
         "text":"smartphone",
         "location":{
@@ -21586,7 +21586,7 @@
   },
   {
     "text":"excellent smartphone, good screen resolution and with many accessories with 5g coverage",
-    "target_mentions":[
+    "targets":[
       {
         "text":"smartphone",
         "location":{
@@ -21633,7 +21633,7 @@
   },
   {
     "text":"fast accurate and at an excellent price I recommend them",
-    "target_mentions":[
+    "targets":[
       {
         "text":"them",
         "location":{
@@ -21701,7 +21701,7 @@
   },
   {
     "text":"fast food restaurants are usually the best places to eat when you don't feel like making food, but they are not always the healthiest",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -21727,7 +21727,7 @@
   },
   {
     "text":"finally , the service is superb .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"superb",
         "location":{
@@ -21774,7 +21774,7 @@
   },
   {
     "text":"good service, but I had a problem with my car which was not paid in full for a crash repair.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"my car",
         "location":{
@@ -21821,7 +21821,7 @@
   },
   {
     "text":"great attention, friendly staff and the rooms are very comfortable",
-    "target_mentions":[
+    "targets":[
       {
         "text":"attention",
         "location":{
@@ -21889,7 +21889,7 @@
   },
   {
     "text":"great price and have more channel that others  i always have signal  and  had all  kids channels  for my  son,  you can have it with only a call",
-    "target_mentions":[
+    "targets":[
       {
         "text":"price",
         "location":{
@@ -21936,7 +21936,7 @@
   },
   {
     "text":"he carefully listen to me and easily solve  my daily problems that  may cause me to be  distracted during your day.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"he",
         "location":{
@@ -21962,7 +21962,7 @@
   },
   {
     "text":"hindu food here is not of this type, rather it seems japanese, it takes a long time between dishes and it does not have a great variety of beers",
-    "target_mentions":[
+    "targets":[
       {
         "text":"variety of beers",
         "location":{
@@ -22030,7 +22030,7 @@
   },
   {
     "text":"i bought cupcakes from the dessert shop and they tasted amazing.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"tasted",
         "location":{
@@ -22077,7 +22077,7 @@
   },
   {
     "text":"i bought this mouse for a really cheap price and i thought they would break easily, however that's not the case, they are sturdy and great quality, worth buying!",
-    "target_mentions":[
+    "targets":[
       {
         "text":"price",
         "location":{
@@ -22145,7 +22145,7 @@
   },
   {
     "text":"i bought this phone  about  1 year age and  I was so happy at first , but after some months had  passed , the mobile battery  began to weaken .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"mobile battery",
         "location":{
@@ -22171,7 +22171,7 @@
   },
   {
     "text":"i chose to  stay in doors to enjoy the air condition.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"air condition",
         "location":{
@@ -22197,7 +22197,7 @@
   },
   {
     "text":"i enjoy with spa and massage .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"spa and massage",
         "location":{
@@ -22223,7 +22223,7 @@
   },
   {
     "text":"i finally found the right clothing shop for my child .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"clothing shop",
         "location":{
@@ -22249,7 +22249,7 @@
   },
   {
     "text":"i have to admit that  i have a nice time there.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"time",
         "location":{
@@ -22296,7 +22296,7 @@
   },
   {
     "text":"i like the food its really tasty, but the prices its absolulty insane, so much expensive, there is so many places with the same  food but so much better prices",
-    "target_mentions":[
+    "targets":[
       {
         "text":"prices",
         "location":{
@@ -22385,7 +22385,7 @@
   },
   {
     "text":"i really like this bank , is very easy to  open an account in this bank  and thay offered many services like  credit card and  business account, they have many  offices in all the country  and thay have atm as well",
-    "target_mentions":[
+    "targets":[
       {
         "text":"to",
         "location":{
@@ -22453,7 +22453,7 @@
   },
   {
     "text":"i started buying pieces for my computer and went it came to the CPU, i saw this the store, the price was kinda cheap, the materials are okay is not the greatest, the size was medium, overall quality is okay to decent.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"overall quality",
         "location":{
@@ -22542,7 +22542,7 @@
   },
   {
     "text":"i use it to type about 3000 words a day since one month and it's really good and has adjustable rgb.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -22589,7 +22589,7 @@
   },
   {
     "text":"i used a Discover card and it was received to the country i arrived on vacation, without inconvenience, the only limitation is the amount that was granted to me",
-    "target_mentions":[
+    "targets":[
       {
         "text":"amount that was granted to me",
         "location":{
@@ -22615,7 +22615,7 @@
   },
   {
     "text":"impressive products to improve work ergonomics, including ergonomics in educational settings and for gamers",
-    "target_mentions":[
+    "targets":[
       {
         "text":"products",
         "location":{
@@ -22641,7 +22641,7 @@
   },
   {
     "text":"in this hotel you can enjoy the massage service .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"massage service",
         "location":{
@@ -22667,7 +22667,7 @@
   },
   {
     "text":"it has a lot of features ,it's working very good, I used for 7 years till now and I didn't have any problems with it",
-    "target_mentions":[
+    "targets":[
       {
         "text":"working",
         "location":{
@@ -22756,7 +22756,7 @@
   },
   {
     "text":"it has very good noise cancellation and your voice becomes clear due to the filter.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -22824,7 +22824,7 @@
   },
   {
     "text":"it is 144hz supports eye protection so it is the best choice for people who set on computer for a long time.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"choice",
         "location":{
@@ -22871,7 +22871,7 @@
   },
   {
     "text":"it was a great  experience .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"experience",
         "location":{
@@ -22918,7 +22918,7 @@
   },
   {
     "text":"it was a wonderful experience and i spent a nice time there .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"time",
         "location":{
@@ -22986,7 +22986,7 @@
   },
   {
     "text":"it was very good at its point no strong flavors",
-    "target_mentions":[
+    "targets":[
       {
         "text":"at its point",
         "location":{
@@ -23033,7 +23033,7 @@
   },
   {
     "text":"it's a great value for money.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -23080,7 +23080,7 @@
   },
   {
     "text":"it's just not so beautifully disigned.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"disigned",
         "location":{
@@ -23106,7 +23106,7 @@
   },
   {
     "text":"it's just somewhat expensive.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -23132,7 +23132,7 @@
   },
   {
     "text":"its a very good smartphone, with their 3 cameras it was so good",
-    "target_mentions":[
+    "targets":[
       {
         "text":"smartphone",
         "location":{
@@ -23179,7 +23179,7 @@
   },
   {
     "text":"muy buen equipo carcaza super resistente tiene un precio accesible, me gusta su dise\u00f1o atractivo",
-    "target_mentions":[
+    "targets":[
       {
         "text":"precio",
         "location":{
@@ -23247,7 +23247,7 @@
   },
   {
     "text":"my child was sick and I decided to go to hospital , but i was in shock there .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"hospital",
         "location":{
@@ -23273,7 +23273,7 @@
   },
   {
     "text":"my child was suffering from poor nutrition and coughing a lot but doctor was skillful .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"doctor",
         "location":{
@@ -23320,7 +23320,7 @@
   },
   {
     "text":"personally I didn't like it at all, I didn't feel anything, I didn't feel that I got better, and I felt very uncomfortable.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -23346,7 +23346,7 @@
   },
   {
     "text":"pretty far of my home, and i thought that it would be better :\/",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -23393,7 +23393,7 @@
   },
   {
     "text":"psychology is something that helped me a lot in my life, it made me feel more optimistic to see the world differently, I really recommend that you go to a psychologist, it is not necessary to feel bad, even if you are well it helps a lot.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"go to a psychologist",
         "location":{
@@ -23440,7 +23440,7 @@
   },
   {
     "text":"reI love going the every weekend with my friends .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"going the every weekend with my friends",
         "location":{
@@ -23466,7 +23466,7 @@
   },
   {
     "text":"she saved me from a unjust life",
-    "target_mentions":[
+    "targets":[
       {
         "text":"she",
         "location":{
@@ -23492,7 +23492,7 @@
   },
   {
     "text":"staff were extra friendly, pool was clean, and the bed was very comfortable",
-    "target_mentions":[
+    "targets":[
       {
         "text":"staff",
         "location":{
@@ -23560,7 +23560,7 @@
   },
   {
     "text":"that good internet service, it is very fast and with very affordable prices",
-    "target_mentions":[
+    "targets":[
       {
         "text":"prices",
         "location":{
@@ -23607,7 +23607,7 @@
   },
   {
     "text":"the CPU has 6 cores and 12 threads and I always put it under 100% percentage usage and it performs well but the temperature becomes high in some days.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"temperature",
         "location":{
@@ -23654,7 +23654,7 @@
   },
   {
     "text":"the Netflix transmission service is very nice, the monthly fee is not expensive, but it does not have a great variety in programming.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"monthly fee",
         "location":{
@@ -23722,7 +23722,7 @@
   },
   {
     "text":"the Quality of camera is awesome and this phone provide with eye-care feature .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"phone",
         "location":{
@@ -23769,7 +23769,7 @@
   },
   {
     "text":"the TV is great, amazing wifi connectivity, it brings many applications, I give it 5 stars",
-    "target_mentions":[
+    "targets":[
       {
         "text":"applications",
         "location":{
@@ -23837,7 +23837,7 @@
   },
   {
     "text":"the baseball game last night was very exciting, from beginning to end, good game they gave us these teams",
-    "target_mentions":[
+    "targets":[
       {
         "text":"baseball game",
         "location":{
@@ -23905,7 +23905,7 @@
   },
   {
     "text":"the bathroom was lacking the basics amenities, there was not soap or toiler paper, i had to call the service to get one, however it was very clean at least, but i don't think is worth the price.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"amenities",
         "location":{
@@ -23973,7 +23973,7 @@
   },
   {
     "text":"the battery lasts long and is fast.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"the battery",
         "location":{
@@ -23999,7 +23999,7 @@
   },
   {
     "text":"the best caesar salad I have ever eaten.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"caesar salad",
         "location":{
@@ -24025,7 +24025,7 @@
   },
   {
     "text":"the best command mode tool created for computers, super innovative technology",
-    "target_mentions":[
+    "targets":[
       {
         "text":"command mode tool",
         "location":{
@@ -24072,7 +24072,7 @@
   },
   {
     "text":"the camera of this mobile is superb and the space is big enough .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"camera",
         "location":{
@@ -24140,7 +24140,7 @@
   },
   {
     "text":"the camera quality was poor .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"the camera quality",
         "location":{
@@ -24166,7 +24166,7 @@
   },
   {
     "text":"the cleaning service arrives very early to the room even when we are there, it only takes care of the beds and the bathroom leaves it the same, also did not change the sheets, it was a bad service",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -24192,7 +24192,7 @@
   },
   {
     "text":"the cleaning service was a good value for money and they did the cleaning well.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"cleaning service",
         "location":{
@@ -24239,7 +24239,7 @@
   },
   {
     "text":"the clinic is clean and the doctor is really clever.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"doctor",
         "location":{
@@ -24286,7 +24286,7 @@
   },
   {
     "text":"the computer is very versatile but it does not have enough memory, it has problems connecting to wifi, not really what I expected",
-    "target_mentions":[
+    "targets":[
       {
         "text":"connecting to wifi",
         "location":{
@@ -24333,7 +24333,7 @@
   },
   {
     "text":"the cost is low however the performance of the phone is very good for its cost, it has good ram memory although its camera is not very good",
-    "target_mentions":[
+    "targets":[
       {
         "text":"performance of the phone",
         "location":{
@@ -24422,7 +24422,7 @@
   },
   {
     "text":"the employees weren't wearing masks so I don't feel comfortable shopping here and their gloves are worn incorrectly.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"gloves",
         "location":{
@@ -24490,7 +24490,7 @@
   },
   {
     "text":"the experience was terrible I almost died of this disease I had to breathe with oxygen since my blood o2 level was very low",
-    "target_mentions":[
+    "targets":[
       {
         "text":"blood o2 level",
         "location":{
@@ -24558,7 +24558,7 @@
   },
   {
     "text":"the food is  bad i dont like these tacos , the food is cold and  the service is bad",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -24647,7 +24647,7 @@
   },
   {
     "text":"the food is very good and its service, good atmosphere",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -24715,7 +24715,7 @@
   },
   {
     "text":"the food is very good and your service, very friendly personam",
-    "target_mentions":[
+    "targets":[
       {
         "text":"your service",
         "location":{
@@ -24762,7 +24762,7 @@
   },
   {
     "text":"the food was delicious and variable.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -24788,7 +24788,7 @@
   },
   {
     "text":"the food was so tasty .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -24814,7 +24814,7 @@
   },
   {
     "text":"the food was so tasty and the menu is perfect .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -24861,7 +24861,7 @@
   },
   {
     "text":"the gardeners are the people in charge of beautifying the gardens of our house and maintaining all the necessities regarding the fertiilization of the plants",
-    "target_mentions":[
+    "targets":[
       {
         "text":"gardeners",
         "location":{
@@ -24887,7 +24887,7 @@
   },
   {
     "text":"the girl answered my calls always and at any time, showing kindness, we decided to remodel the room and she gave very original and excellent ideas, she made renderings to see how the room was going to be, we loved it, something against was the orders she made, as some furniture took time to arrive and that delayed the work",
-    "target_mentions":[
+    "targets":[
       {
         "text":"ideas",
         "location":{
@@ -24997,7 +24997,7 @@
   },
   {
     "text":"the graphics of games is superb .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"graphics of games",
         "location":{
@@ -25023,7 +25023,7 @@
   },
   {
     "text":"the hamburger meat had a strange taste I think it was badly seasoned",
-    "target_mentions":[
+    "targets":[
       {
         "text":"hamburger meat",
         "location":{
@@ -25091,7 +25091,7 @@
   },
   {
     "text":"the hospital was not clean",
-    "target_mentions":[
+    "targets":[
       {
         "text":"hospital",
         "location":{
@@ -25117,7 +25117,7 @@
   },
   {
     "text":"the hotel has a fantastic pool, but its staff does not serve very well",
-    "target_mentions":[
+    "targets":[
       {
         "text":"pool",
         "location":{
@@ -25164,7 +25164,7 @@
   },
   {
     "text":"the hotel is a litle small but is confortable and beatifull the beach is amazing and the service is good, the breakfast is delicius",
-    "target_mentions":[
+    "targets":[
       {
         "text":"beach",
         "location":{
@@ -25232,7 +25232,7 @@
   },
   {
     "text":"the hotel is not expensive but the place is too far to reach it",
-    "target_mentions":[
+    "targets":[
       {
         "text":"place",
         "location":{
@@ -25258,7 +25258,7 @@
   },
   {
     "text":"the hotel is very cozy it seems to my home and they are very attentive all the staff",
-    "target_mentions":[
+    "targets":[
       {
         "text":"hotel",
         "location":{
@@ -25305,7 +25305,7 @@
   },
   {
     "text":"the hotel its location is wonderful, and its food is 5 stars, I would recommend it",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -25373,7 +25373,7 @@
   },
   {
     "text":"the hotel pool was very dirty it seems that they do little maintenance and that leaves much to be desired",
-    "target_mentions":[
+    "targets":[
       {
         "text":"the hotel pool",
         "location":{
@@ -25399,7 +25399,7 @@
   },
   {
     "text":"the hotel was amazing the view are beautifull is close to the beach and the services is great the pool is big enough",
-    "target_mentions":[
+    "targets":[
       {
         "text":"pool",
         "location":{
@@ -25488,7 +25488,7 @@
   },
   {
     "text":"the hotels has taken all precaution to make you feel safe .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"hotels",
         "location":{
@@ -25514,7 +25514,7 @@
   },
   {
     "text":"the images look amazing and you can install a lot of app , easily set up and in many languages",
-    "target_mentions":[
+    "targets":[
       {
         "text":"set up",
         "location":{
@@ -25561,7 +25561,7 @@
   },
   {
     "text":"the internet connection is the best, I recommend them because they are the best company",
-    "target_mentions":[
+    "targets":[
       {
         "text":"company",
         "location":{
@@ -25608,7 +25608,7 @@
   },
   {
     "text":"the key chain looks nice and it can have more than 10 keys in it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"the key chain",
         "location":{
@@ -25634,7 +25634,7 @@
   },
   {
     "text":"the keyboard  arrive late, some of the keys did not work all the time and eventually stopped working at all, the price was low but still the product is not good, i would not recommend this to anyone",
-    "target_mentions":[
+    "targets":[
       {
         "text":"product",
         "location":{
@@ -25723,7 +25723,7 @@
   },
   {
     "text":"the location of  hotel is perfect and the room service is superb .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"the location of  hotel",
         "location":{
@@ -25770,7 +25770,7 @@
   },
   {
     "text":"the location of shop is great and easy to go to .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"location of shop",
         "location":{
@@ -25796,7 +25796,7 @@
   },
   {
     "text":"the material of clothes is awesome and the prices is cheap .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"material of clothes",
         "location":{
@@ -25843,7 +25843,7 @@
   },
   {
     "text":"the materials of T-shirts is great .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"materials of T-shirts",
         "location":{
@@ -25869,7 +25869,7 @@
   },
   {
     "text":"the menu was so bad and the service there is too low .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"menu",
         "location":{
@@ -25916,7 +25916,7 @@
   },
   {
     "text":"the microphone has noise cancellation tool which is adjustable but the wire is very long.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"wire",
         "location":{
@@ -25942,7 +25942,7 @@
   },
   {
     "text":"the mixture of the ingredients create an incredible flavor in addition to the abundance of the cheese make it perfect",
-    "target_mentions":[
+    "targets":[
       {
         "text":"mixture of the ingredients",
         "location":{
@@ -26031,7 +26031,7 @@
   },
   {
     "text":"the mouse is very beautiful and makes you relax when holding it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"mouse",
         "location":{
@@ -26057,7 +26057,7 @@
   },
   {
     "text":"the only bad thing that it needs an adapter.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"it",
         "location":{
@@ -26104,7 +26104,7 @@
   },
   {
     "text":"the pen looks nice and the font is quite thin.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"font",
         "location":{
@@ -26151,7 +26151,7 @@
   },
   {
     "text":"the phone is excellent very fast but the battery time is very short if you use a lot",
-    "target_mentions":[
+    "targets":[
       {
         "text":"phone",
         "location":{
@@ -26198,7 +26198,7 @@
   },
   {
     "text":"the phone is great is beautifull and fast and always has  wireless service",
-    "target_mentions":[
+    "targets":[
       {
         "text":"phone",
         "location":{
@@ -26224,7 +26224,7 @@
   },
   {
     "text":"the phone is highly protected and no one can hack it.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"phone",
         "location":{
@@ -26250,7 +26250,7 @@
   },
   {
     "text":"the potatoes were very crispy and not greasy I liked them a lot",
-    "target_mentions":[
+    "targets":[
       {
         "text":"potatoes",
         "location":{
@@ -26276,7 +26276,7 @@
   },
   {
     "text":"the price are really insane, in summer i cant turn on the air conditioner because the price of this its really insane",
-    "target_mentions":[
+    "targets":[
       {
         "text":"the price of this",
         "location":{
@@ -26323,7 +26323,7 @@
   },
   {
     "text":"the price of accommodation  are very high .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"price of accommodation",
         "location":{
@@ -26349,7 +26349,7 @@
   },
   {
     "text":"the price of food was expensive .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"price",
         "location":{
@@ -26375,7 +26375,7 @@
   },
   {
     "text":"the prices also is not expensive .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"prices",
         "location":{
@@ -26401,7 +26401,7 @@
   },
   {
     "text":"the prices is too expensive",
-    "target_mentions":[
+    "targets":[
       {
         "text":"prices",
         "location":{
@@ -26427,7 +26427,7 @@
   },
   {
     "text":"the product is great  it have very functions and the precision of the  localization  is amazing",
-    "target_mentions":[
+    "targets":[
       {
         "text":"product",
         "location":{
@@ -26474,7 +26474,7 @@
   },
   {
     "text":"the quality of  food was  disgusting  .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"quality of  food",
         "location":{
@@ -26500,7 +26500,7 @@
   },
   {
     "text":"the quality of camera is too low and the battery do not last too long .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"quality of camera",
         "location":{
@@ -26547,7 +26547,7 @@
   },
   {
     "text":"the quality of food is exceptional  and the service there  is superb .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -26594,7 +26594,7 @@
   },
   {
     "text":"the quality of food is so good , there is a kids area where kids can play , all salads there are for free but the restaurant is costly .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"kids area",
         "location":{
@@ -26662,7 +26662,7 @@
   },
   {
     "text":"the quality of food is very good  and all salads there are free .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"salads",
         "location":{
@@ -26709,7 +26709,7 @@
   },
   {
     "text":"the quality of food was superb .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"quality of food",
         "location":{
@@ -26735,7 +26735,7 @@
   },
   {
     "text":"the quality of material was disappointing and the shirt did not look like the picture .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"shirt",
         "location":{
@@ -26782,7 +26782,7 @@
   },
   {
     "text":"the quality of the sweater is bad and it comes apart easily I feel like I lost my money",
-    "target_mentions":[
+    "targets":[
       {
         "text":"quality of the sweater",
         "location":{
@@ -26808,7 +26808,7 @@
   },
   {
     "text":"the restaurant was very cozy but the food was very salty and tasteless",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -26834,7 +26834,7 @@
   },
   {
     "text":"the room service there is so friendly .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"room service",
         "location":{
@@ -26860,7 +26860,7 @@
   },
   {
     "text":"the room very comfortable ideal for the whole family, my daughter really enjoyed the pool",
-    "target_mentions":[
+    "targets":[
       {
         "text":"pool",
         "location":{
@@ -26907,7 +26907,7 @@
   },
   {
     "text":"the rooms were a bit dirty, with no hot water and unpleasant odors in the bathroom.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"the rooms",
         "location":{
@@ -26996,7 +26996,7 @@
   },
   {
     "text":"the router has many options and allows you to overclock the basic speed and allows you to set data limit.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"router",
         "location":{
@@ -27022,7 +27022,7 @@
   },
   {
     "text":"the salads  are fresh but burger is very bad .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"the salads",
         "location":{
@@ -27069,7 +27069,7 @@
   },
   {
     "text":"the school is perfect good facilities, good teachers and the location is good",
-    "target_mentions":[
+    "targets":[
       {
         "text":"good",
         "location":{
@@ -27179,7 +27179,7 @@
   },
   {
     "text":"the selection of drinks was incredible and the pizza was delicious.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"pizza",
         "location":{
@@ -27226,7 +27226,7 @@
   },
   {
     "text":"the service is pretty  good and the taste of food is superb .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"the service",
         "location":{
@@ -27273,7 +27273,7 @@
   },
   {
     "text":"the service is so good and the menu is perfect .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -27320,7 +27320,7 @@
   },
   {
     "text":"the service was of excellent quality and I had attention 24 hours a day I am very satisfied",
-    "target_mentions":[
+    "targets":[
       {
         "text":"service",
         "location":{
@@ -27346,7 +27346,7 @@
   },
   {
     "text":"the service was so good and the crew was so friendly .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"crew",
         "location":{
@@ -27393,7 +27393,7 @@
   },
   {
     "text":"the size of the shirt was too large .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"size of the shirt",
         "location":{
@@ -27419,7 +27419,7 @@
   },
   {
     "text":"the staff of shop was so friendly and they helped me choose  the right mobile for me .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"mobile",
         "location":{
@@ -27466,7 +27466,7 @@
   },
   {
     "text":"the store was fascinating, very clean and smelled quite nice, as well as the staff who explained the advantages and specifications of the product i wanted, helped me with my payment and even gift wrapped it",
-    "target_mentions":[
+    "targets":[
       {
         "text":"staff",
         "location":{
@@ -27555,7 +27555,7 @@
   },
   {
     "text":"the taste of sandwiches was so bad and i had to  throw them in the trash .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"taste of sandwiches",
         "location":{
@@ -27581,7 +27581,7 @@
   },
   {
     "text":"the taste was very bad and the staff is unfriendly .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"taste",
         "location":{
@@ -27628,7 +27628,7 @@
   },
   {
     "text":"the treatment of staff is awesome .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"treatment of staff",
         "location":{
@@ -27654,7 +27654,7 @@
   },
   {
     "text":"the waitress was very courteous, food was great, and the manager came at the end of the meal and asked how everything was.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -27722,7 +27722,7 @@
   },
   {
     "text":"there is different kinds of tea that I loved  like strawberry tea .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"tea",
         "location":{
@@ -27769,7 +27769,7 @@
   },
   {
     "text":"they are excellent and have noise cancellation in the built-in microphone.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"microphone",
         "location":{
@@ -27816,7 +27816,7 @@
   },
   {
     "text":"they are quite good to share with the family, but I always come with my knees hit",
-    "target_mentions":[
+    "targets":[
       {
         "text":"they",
         "location":{
@@ -27842,7 +27842,7 @@
   },
   {
     "text":"they are very spacious and trap dirt properly and can even retain moisture without overflowing",
-    "target_mentions":[
+    "targets":[
       {
         "text":"they",
         "location":{
@@ -27910,7 +27910,7 @@
   },
   {
     "text":"they aren't compatible with a lot of android phones.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"android phones",
         "location":{
@@ -27978,7 +27978,7 @@
   },
   {
     "text":"they had many discounts on mobiles , which made the price of mobile reasonable .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"price of mobile",
         "location":{
@@ -28004,7 +28004,7 @@
   },
   {
     "text":"they provide new dishes of their invention and they are very good.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"new dishes",
         "location":{
@@ -28030,7 +28030,7 @@
   },
   {
     "text":"they should improve that.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"that",
         "location":{
@@ -28056,7 +28056,7 @@
   },
   {
     "text":"they suggest many special games to me .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"games",
         "location":{
@@ -28082,7 +28082,7 @@
   },
   {
     "text":"this  hotel was  great the location is great very close to the beach",
-    "target_mentions":[
+    "targets":[
       {
         "text":"hotel",
         "location":{
@@ -28129,7 +28129,7 @@
   },
   {
     "text":"very clean site and confortable rooms, have nice prices and the service room is absolutly great.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"rooms",
         "location":{
@@ -28218,7 +28218,7 @@
   },
   {
     "text":"very comfortable and not heavy despite having a steel tip",
-    "target_mentions":[
+    "targets":[
       {
         "text":"steel tip",
         "location":{
@@ -28244,7 +28244,7 @@
   },
   {
     "text":"very good phone, it sticks a little bit and has some errors but for the price it is very very good, I recommend it if you are without money.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"price",
         "location":{
@@ -28270,7 +28270,7 @@
   },
   {
     "text":"very good place to rest\n\nspacious comfortable room with good view",
-    "target_mentions":[
+    "targets":[
       {
         "text":"view",
         "location":{
@@ -28338,7 +28338,7 @@
   },
   {
     "text":"very good presentation very exact and has special functions that I like",
-    "target_mentions":[
+    "targets":[
       {
         "text":"exact",
         "location":{
@@ -28406,7 +28406,7 @@
   },
   {
     "text":"very good service, the workers very kind and respectful, and very responsible.",
-    "target_mentions":[
+    "targets":[
       {
         "text":"workers",
         "location":{
@@ -28453,7 +28453,7 @@
   },
   {
     "text":"we ate cold food and there is not air condition in the restaurant .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -28521,7 +28521,7 @@
   },
   {
     "text":"we stayed 5 days at the hotel, the wonderful food and your attention",
-    "target_mentions":[
+    "targets":[
       {
         "text":"food",
         "location":{
@@ -28568,7 +28568,7 @@
   },
   {
     "text":"what a bad internet service, it drops every 30 seconds and the speed is bad",
-    "target_mentions":[
+    "targets":[
       {
         "text":"internet service",
         "location":{
@@ -28615,7 +28615,7 @@
   },
   {
     "text":"with it I improved my work in appen and I love it!",
-    "target_mentions":[
+    "targets":[
       {
         "text":"appen",
         "location":{
@@ -28683,7 +28683,7 @@
   },
   {
     "text":"works perfectly and has a variety of games is a good buy",
-    "target_mentions":[
+    "targets":[
       {
         "text":"buy",
         "location":{
@@ -28730,7 +28730,7 @@
   },
   {
     "text":"you can enjoy  with spa and massage .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"spa and massage",
         "location":{
@@ -28756,7 +28756,7 @@
   },
   {
     "text":"you can have a good time with you family there .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"there",
         "location":{
@@ -28782,7 +28782,7 @@
   },
   {
     "text":"you can talk with your  friends  and have a nice time .",
-    "target_mentions":[
+    "targets":[
       {
         "text":"time",
         "location":{
@@ -28808,541 +28808,541 @@
   },
   {
     "text":"It was nothing we expected.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Recently i went to Mcdonalds.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I went to the butcher's and bough a kg of cow liver.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"The service at the table was very bad.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Stars: 4",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"i felt pain in my stomach and i visited the doctorand he discovered it was a germ so he prescribed a specific medicine to kill this germ.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I have read this book.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Better than some of it's competitors in this regard.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I loved.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"you can invite your friend to play with him online .",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Stars: 4.7",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"there are nigh parties too .",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I think it is very low.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"On the advice of my friend, I bought this comedy book.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Huge breadth of content though that makes up for some missteps.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Stars: 5",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Today i got a takeout from a new Indian takeaway that opened near where i live.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Yesterday, me and my girlfriend came about 6 differents restaurant, and anyone have a reservation, ok, I understand  that its a limitated chairs and all this stuff, but you can public in your app or in yelp, in a day like valentines day, that you have tables AVAILABLES.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Spectacular",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"The decoration was very vintage.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"It looked stylish and sleek.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"the car comes with different internal designs.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Stars: 2",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"The service was very good.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Went to a restaurant been going to for many years.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I was given a good brand phone.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"He linked my symptoms to a sort of disease immediately.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I have been using this TV for a year now.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"you can find all kinds of chocolate that you might think of .",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"The tea is delicious but a lot of it may be unhealthy.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"!",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Do not recommend.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I can't wait to go back.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Nothing was as expected.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"the uber was very attentive, although a bit slow, I was in a hurry to get there and sadly he wasn't faster and I was late.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Smartphones are an excellent technology in the right hands, but if you leave them within the reach of children it will steal their childhood",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"They Have any gender-related mysteries, enigmas, Ufo, and different kinds of material in the relation to cultural stuff of the world in the past and the present.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"it's made of original calf leather and has many pockets.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"fully recommended\nStars: 4.8",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"It has a beautiful cover and is expensive.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"so it's a matter of luck.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"It has a touch screen.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Without being the best law firm, they do their job.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"A year ago, I went to this acupuncture clinic for my back pain.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"For example to declare broke up the cost is 1500$",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Stars: 4.5",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I decided to visit the psychologist.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"i wish a phone that have it all, camera, screen, ram, internal memory, expandible memory, features, etc.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"He treated my pain in 2 separate sessions.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Had some server issues while searching but nothing that lasted long enough to really hamper my experience.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Back two months ago I hire some decorist friend of the family because we were living abroad and planning on moving back into our home and wanted to refresh the rooms.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Exceptionally stable OS and for the price I paid for it, the quality far exceeds the price point.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Pretty well!",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"it can be better",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Very good!",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I have never felt real joy for a long time.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Stars: 3",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"At first, when it came to setting it up, finding the right range from the WI-FI box was a bit of a pain but after that hurdle it was pretty simple.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"But when our problem was finally resolved we were able to enjoy our stay.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I could not find anyone to help me  choose the right fridge for me , so I went home without buying anything",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I bought this laptop 3 months ago.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"The hat has two colors within inside and out side.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Went to get a new phone and they made sure everyone wore masks and kept six feet apart.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":":d",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Only its warranty is low.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"you can charge you mobile phone within 30 minutes .",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"As we were leaving everyone said good bye, have a great day, stay safe.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I would really stay again.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I bought a robotic vacuum which was on offer at the local store.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"i'm disappointed.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Just what I needed.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"wonderful!",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"there is an  air condition inside .",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"All that was breathed was peace and quiet.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"We will never return.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Its so difficult\u00a1?",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"pretty good, pretty strong and very so much fast!",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I ordered  a shirt one month  ago .",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Buy a washing machine and go unconsumed within a few days",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"It was not what we expected.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"As recommended to me.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Its environment dates back to unknown times and to different beliefs and ethnic groups that have prepared this dish in different ways over the years.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"uncomfortable access to parking, but very neat.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"my baby is 4 months oldand he began to cough seriously so I visited the doctor and he assured me that it's because he needs breast milk not any other sort of milk.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Was trying to purchase a certain video game and was able to with little to no effort.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I have received 2 job interviews with companies during this period.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"The color of the frame changes with the light.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I hope to expand my collection.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"Very rustic car, not very ergonomic and not recommended for a large family.",
-    "target_mentions":[
+    "targets":[
 
     ]
   },
   {
     "text":"I bought a pair of sneakers 6 months ago.",
-    "target_mentions":[
+    "targets":[
 
     ]
   }
