@@ -149,12 +149,18 @@ def restore_text(data, out_json, src_param):
         if 'review_id' in r:
             r.pop('review_id')
 
+    # create a dictionary from each source to to a list of hash values,
+    # the hash values were originally created from the texts that should be restored.
     src_hashes = {}
     for output_record in data:
         if output_record['text'] is None:
             src = output_record['source']
             src_hashes[src] = src_hashes.get(src, []) + [_get_hash(output_record)]
 
+    # Restore the texts, by calling the appropriate restore function, for
+    # each source. The restore function restores all the texts for
+    # a given source. Also record a per-source list of texts that were not
+    # successfully restored.
     src_missing_hashes = {}
     for src, hashes in src_hashes.items():
         kwargs = src_param[src]
@@ -164,6 +170,8 @@ def restore_text(data, out_json, src_param):
         else:
             print(f'Restoring {len(hashes)} sentences from {src}')
             hash2txt = RESTORE_FUNCTIONS[src]['restore_fun'](hashes, **kwargs)
+            # replace the list of per-source hash values, with a mapping of
+            # hash values to their original texts
             src_hashes[src] = hash2txt
             src_missing_hashes[src] = [h for h in hashes if h not in hash2txt]
 
@@ -196,6 +204,11 @@ def restore_text(data, out_json, src_param):
 
 
 def prepare_src_param(in_json, args):
+    '''
+    For each source, parse the input args with a function that is specific
+    for the source. That function will extract the relevant params for
+    the source (if they were provided in the input).
+    '''
     with open(in_json, encoding='utf-8') as f:
         data = json.load(f)
     src_param = {rec['source']: None for rec in data}
