@@ -238,7 +238,8 @@ RESTORE_FUNCTIONS = {
     },
 }
 
-if __name__ == '__main__':
+
+def main():
     parser = argparse.ArgumentParser(description='Restore sentences of the YASO evaluation set.')
     parser.add_argument('--amazon', help='path to file dataset_en_test.json')
     parser.add_argument('--sst', help='path to directory stanfordSentimentTreebank')
@@ -252,3 +253,7 @@ if __name__ == '__main__':
 
     in_data, source_param = prepare_src_param(in_file, args)
     restore_text(in_data, out_file, source_param)
+
+
+if __name__ == '__main__':
+    main()
