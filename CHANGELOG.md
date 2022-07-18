@@ -8,7 +8,7 @@ Initial version
 
 ## 2022-Jul-07
 
-Added the [TSA-MD dataset](./TSA-MD/Readme.md).
+Added the [TSA-MD dataset](./TSA-MD/README.md).
 
 ## <a name="added_domain_labels_to_yaso"></a>2022-Jul-18
 
