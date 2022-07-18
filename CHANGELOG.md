@@ -12,15 +12,15 @@ Added the [TSA-MD dataset](./TSA-MD/Readme.md).
 
 ## 2022-Jul-18
 
-Added the "fine-grained-domain" and "domain" fields to the texts in the
+Added the `fine-grained-domain` and `domain` fields to the texts in the
 [YASO json file](./yaso_tsa/data/yaso_hidden.json).
-These values were determined in our work on [Multi-Domain Targeted Sentiment Analysis (Toledo-Ronen et al. 2022)](https://arxiv.org/abs/2205.03804), published in NAACL 2022.  
+These values were annotated in our work on [Multi-Domain Targeted Sentiment Analysis (Toledo-Ronen et al. 2022)](https://arxiv.org/abs/2205.03804), published in NAACL 2022.  
 
-The "fine-grained-domain" values were
+The `fine-grained-domain` values were
 produced automatically, when possible, or otherwise
 they were manually set by one of the authors.
 Since YASO contains annotated reviews from multiple
-sources, the assigned **fine-grained domain label** depended on the
+sources, the assigned `fine-grained domain` label depended on the
 source:   
 - Reviews from the Stanford Sentiment
 Treebank (Socher et al., 2013; Pang and Lee, 2005)
@@ -41,7 +41,11 @@ the most fitting label according to the judgement of the authors.
 - Texts from the AMAZON source (Keung
 et al., 2020) were manually read and labeled.
 
-Finally, the fine-grained domain labels were categorized
-into a coarse-grained domain label: restaurants (with 400 sentences),
-electronics (412), hotels (161), automotive (144),
-movies (500) and other (596).
+Finally, the `fine-grained domain` labels were categorized
+into a coarse-grained `domain` label: 
+- `restaurants` (with 400 sentences)
+- `electronics` (412)
+- `hotels` (161)
+- `automotive` (144)
+- `movies` (500)  
+- `other` (596)
