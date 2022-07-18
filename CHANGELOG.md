@@ -10,7 +10,7 @@ Initial version
 
 Added the [TSA-MD dataset](./TSA-MD/Readme.md).
 
-## 2022-Jul-18
+## <a name="added_domain_labels_to_yaso"></a>2022-Jul-18
 
 Added the `fine-grained-domain` and `domain` fields to the texts in the
 [YASO json file](./yaso_tsa/data/yaso_hidden.json).

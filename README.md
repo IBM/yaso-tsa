@@ -11,7 +11,7 @@ This repository contains:
 
  (3) New! The TSA-MD dataset, described [here](./TSA-MD/README.md).
 
- (4) New! Domain labels added to the YASO evaluation datast, see the [changelog](./CHANGELOG.md#2022-jul-18) for details.
+ (4) New! Domain labels added to the YASO evaluation datast, see the [changelog](./CHANGELOG.md#added_domain_labels_to_yaso) for details.
 
 
 ## Usage
