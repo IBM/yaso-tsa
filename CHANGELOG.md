@@ -14,7 +14,7 @@ Added the [TSA-MD dataset](./TSA-MD/README.md).
 
 Added the `fine-grained-domain` and `domain` fields to the texts in the
 [YASO json file](./yaso_tsa/data/yaso_hidden.json).
-These values were annotated in our work on [Multi-Domain Targeted Sentiment Analysis (Toledo-Ronen et al. 2022)](https://arxiv.org/abs/2205.03804), published in NAACL 2022.  
+These values were annotated in our work on [Multi-Domain Targeted Sentiment Analysis (Toledo-Ronen et al. 2022)](https://aclanthology.org/2022.naacl-main.198/), published in NAACL 2022.  
 
 The `fine-grained-domain` values were
 produced automatically, when possible, or otherwise

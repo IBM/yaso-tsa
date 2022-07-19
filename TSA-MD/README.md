@@ -2,13 +2,13 @@
 
 This folder contains the Targeted Sentiment Analysis Multi-Domain (TSA-MD) dataset.
 
-The dataset is described in the paper [Multi-Domain Targeted Sentiment Analysis (Toledo-Ronen et al. 2022)](https://arxiv.org/abs/2205.03804), published in NAACL 2022.
+The dataset is described in the paper [Multi-Domain Targeted Sentiment Analysis (Toledo-Ronen et al. 2022)](https://aclanthology.org/2022.naacl-main.198/), published in NAACL 2022.
 
 Overall, the dataset contains 952 sentences of reviews from multiple domains. 
 
 ## Cite
 
-If you are using this dataset, please cite our paper [Multi-Domain Targeted Sentiment Analysis (Toledo-Ronen et al. 2022)](https://arxiv.org/abs/2205.03804).
+If you are using this dataset, please cite our paper [Multi-Domain Targeted Sentiment Analysis (Toledo-Ronen et al. 2022)](https://aclanthology.org/2022.naacl-main.198/).
 
 
 ## Collection
@@ -20,7 +20,7 @@ This step is similar to the candidates
 annotation phase described in [Orbach et al. (2021)](https://aclanthology.org/2021.emnlp-main.721/). 
 However, unlike that work, the detected candidates were not passed through another verification step, to reduce costs.
 This results in noisier data, unfit for evaluation purposes, yet a manual examination has shown it is of sufficient quality for training. 
-Experiments showing the merit of using this data in training are reported in our paper [Multi-Domain Targeted Sentiment Analysis (Toledo-Ronen et al. 2022)](https://arxiv.org/abs/2205.03804).
+Experiments showing the merit of using this data in training are reported in our paper [Multi-Domain Targeted Sentiment Analysis (Toledo-Ronen et al. 2022)](https://aclanthology.org/2022.naacl-main.198/).
 
 ## Split
 The dataset contains a training set and a development set, created by randomly shuffling all the available sentences, and selecting 80% for the training set (761 sentences) and 20% for development (191 sentences).  
