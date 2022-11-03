@@ -7,6 +7,7 @@ import json
 import pandas as pd
 import logging
 
+TARGETS = 'target_mentions'
 SOURCE = 'source'
 SENTENCE_TEXT = 'text'
 TARGET_TEXT = 'target_text'
@@ -29,7 +30,7 @@ class SentimentTargets:
                 json_contents = json.load(json_file)
                 sentiment_targets = pd.json_normalize(
                     json_contents,
-                    record_path=['targets'],
+                    record_path=[TARGETS],
                     # add a record_prefix otherwise the target text and sentence text fields collide (both named 'text)
                     record_prefix='target_',
                     meta_prefix='',
