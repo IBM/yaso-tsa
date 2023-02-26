@@ -190,8 +190,10 @@ class TsaData:
         return self.__sentiment_targets.get_sentences()
 
     def get_sentences_without_targets(self):
-        return [sentence for sentence in self.get_sentences()
-                if sentence not in self.get_sentences_with_predictions()]
+        sentences_with_predictions = self.get_sentences_with_predictions()
+        all_sentences = self.get_sentences()
+        result = set(all_sentences).difference(sentences_with_predictions)
+        return result
 
     def add(self, other):
         sentiment_targets = self.get_sentiment_targets().add(other.get_sentiment_targets())
