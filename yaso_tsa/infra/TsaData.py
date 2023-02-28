@@ -8,7 +8,7 @@ import logging
 import pandas as pd
 
 from yaso_tsa.infra.SentimentTargets import SentimentTargets, SENTENCE_TEXT, TARGET_TEXT, TARGET_BEGIN, TARGET_END, \
-    TARGET_SENTIMENT
+    TARGET_SENTIMENT, TARGETS
 
 
 class TsaData:
@@ -153,8 +153,8 @@ class TsaData:
         # convert one sentence to a dictionary representation
         def single_sentence_as_dictionary(single_text_sentiment_targets):
             return {
-                'text': single_text_sentiment_targets.name,
-                'targets': single_text_sentiment_targets.apply(one_target_as_dictionary, axis=1)
+                SENTENCE_TEXT: single_text_sentiment_targets.name,
+                TARGETS: single_text_sentiment_targets.apply(one_target_as_dictionary, axis=1)
             }
 
         def one_target_as_dictionary(single_target):
@@ -164,7 +164,7 @@ class TsaData:
                     'begin': int(single_target[TARGET_BEGIN]),
                     'end': int(single_target[TARGET_END])
                 },
-                'sentiment': single_target[TARGET_SENTIMENT],
+                TARGET_SENTIMENT: single_target[TARGET_SENTIMENT],
             }
             if to_dict:
                 result.update(to_dict(single_target))
@@ -175,8 +175,8 @@ class TsaData:
         sentences_without_targets = self.get_sentences_without_targets()
         for sentence in sentences_without_targets:
             sentences[sentence] = {
-                'text': sentence,
-                'targets': []
+                SENTENCE_TEXT: sentence,
+                TARGETS: []
             }
         if shuffle:
             logging.info("Shuffling output")
