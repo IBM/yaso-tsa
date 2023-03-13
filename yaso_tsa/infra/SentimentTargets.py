@@ -105,7 +105,7 @@ class SentimentTargets:
 
         output_columns = SentimentTargets.KEY_COLUMNS.copy()
         if with_sentiment:
-            output_columns += [SentimentTargets.TARGET_SENTIMENT]
+            output_columns += [TARGET_SENTIMENT]
         if extra_columns is not None:
             output_columns = output_columns + extra_columns
 
@@ -223,10 +223,10 @@ class SentimentTargets:
         if description:
             description = f'{description}: '
         logging.info(f'{description}Sentiment histogram\n'
-                     f'{self.frame[SentimentTargets.TARGET_SENTIMENT].value_counts(normalize=True)}')
+                     f'{self.frame[TARGET_SENTIMENT].value_counts(normalize=True)}')
 
     def get_sentiment_counts(self):
-        return self.frame[SentimentTargets.TARGET_SENTIMENT].value_counts()
+        return self.frame[TARGET_SENTIMENT].value_counts()
 
     def remove_labeled(self, labeled_sentiment_targets):
         is_labeled = self.frame.apply(
